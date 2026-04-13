@@ -104,24 +104,7 @@ for path in files:
             "file": os.path.basename(path)
         }
 
-# -------------------------------------------------------------------
-# 5) Écriture du CSV final
-# -------------------------------------------------------------------
 
-with open(records_file, "w", newline="") as f:
-    writer = csv.writer(f)
-    writer.writerow(["Circuit", "Voiture", "Version", "Record", "Fichier source"])
-
-    for track, cars in records.items():
-        for car, versions in cars.items():
-            for version, data in versions.items():
-                writer.writerow([
-                    track,
-                    car,
-                    version,
-                    format_lap_time(data["time"]),
-                    data["file"]
-                ])
 
 print("Records mis à jour dans records.csv")
 
