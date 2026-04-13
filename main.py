@@ -6,8 +6,7 @@ import xml.etree.ElementTree as ET
 import csv
 import glob
 
-records_file = "/home/zoubair/Documents/Projets Python/Premier programme/records.csv"
-folder = "/home/zoubair/Documents/Projets Python/Premier programme/xmls"
+
 
 # -------------------------------------------------------------------
 # 1) Fonction pour convertir "M:SS.mmm" → secondes (pour relire le CSV)
