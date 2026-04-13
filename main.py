@@ -112,7 +112,10 @@ st.title("Hi everyone, i'm one the place")
 st.header("Ici un header")
 st.subheader("subheader")
 
-
+for track, cars in records.items():
+    for car, versions in cars.items():
+        for version, data in versions.items():
+            st.text(track + " - " + car + " - " + format_lap_time(data["time"]))
 
 st.markdown("---")
 
