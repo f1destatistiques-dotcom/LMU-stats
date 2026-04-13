@@ -7,56 +7,12 @@ import csv
 import glob
 
 
-
-# -------------------------------------------------------------------
-# 1) Fonction pour convertir "M:SS.mmm" → secondes (pour relire le CSV)
-# -------------------------------------------------------------------
-def parse_lap_time(formatted):
-    minutes, rest = formatted.split(":")
-    return int(minutes) * 60 + float(rest)
-
-# -------------------------------------------------------------------
-# 2) Fonction pour convertir secondes → "M:SS.mmm" (pour écrire le CSV)
-# -------------------------------------------------------------------
-def format_lap_time(seconds):
-    minutes = int(seconds // 60)
-    secs = seconds % 60
-    return f"{minutes}:{secs:06.3f}"
-
-# -------------------------------------------------------------------
-# 3) Lecture du CSV existant (robuste)
-# -------------------------------------------------------------------
-records = {}   # structure : records[track][car][version] = {time, file}
-
-if os.path.exists(records_file):
-    with open(records_file, newline="") as f:
-        reader = csv.reader(f)
-        next(reader, None)  # skip header
-
-        for row in reader:
-            # ignorer lignes vides ou incomplètes
-            if len(row) < 5:
-                continue
-
-            track = row[0]
-            car = row[1]
-            version = row[2]
-            best = row[3]
-            source = row[4]
-
-            # initialisation
-            if track not in records:
-                records[track] = {}
-            if car not in records[track]:
-                records[track][car] = {}
-
-            # convertir le temps formaté vers secondes
-            lap_sec = parse_lap_time(best)
-
-            records[track][car][version] = {
-                "time": lap_sec,
-                "file": source
-            }
+folder = "xmls"
+for file in os.listdir(xml_folder):
+    if file.endswith(".xml"):
+        path = os.path.join(folder, file)
+        with open(path) as f:
+            contenu = f.read()
 
 # -------------------------------------------------------------------
 # 4) Lecture des fichiers XML
