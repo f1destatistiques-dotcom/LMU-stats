@@ -2,11 +2,13 @@ import streamlit as st
 
 st.set_page_config(layout="wide") # Permet un affichage en plein écran
 
+st.sidebar.success('Home')
+
 #Pour lancer l'environnement virtual
 # cd virtenv
 # streamlit run main.py
 
-st.title("HOME - VROUUUM !")
+st.title("HOME - VROUM !")
 
 # PERMET LA LECTURE DU FICHIER CSV STOCKÉ DANS LES DÉPÔTS DE GITHUB (MES PROPRES DÉPOTS)
 import pandas as pd
@@ -14,7 +16,7 @@ url_general_data = "https://raw.githubusercontent.com/f1destatistiques-dotcom/LM
 df_general_data = pd.read_csv(url_general_data)
 
 # AFFICHER TOUT LE TABLEAU CSV
-st.dataframe(df_general_data)
+#st.dataframe(df_general_data)
 
 ## AJUSTEMENT DU FORMAT DES CHIFFRES AFFICHÉS (évite les .0 pour chiffres entiers et limite à 2 décimales)
 def format_value(v):
@@ -27,49 +29,152 @@ def format_value(v):
     except:
         return str(v)
 
+
+
+# -------------------------------- N'affiche que les data Tours du fichier DATA général + filtrage possible
+categories = df_general_data["Category"].dropna().unique()
+cat_choice = st.selectbox("Choisir une catégorie :", categories)
+
+filtered = df_general_data[df_general_data["Category"] == cat_choice]
+
+# st.dataframe(filtered) # Affichage sous forme de tableau
+
 # CHOIX DES ICONES POUR LES TUILES
 icons = {
-    "Nombre de courses en multi": "🌐",
-    "Nombre de tour": "🔁",
-    "Nombre de victoires": "🏆",
-    "Nombre de podiums": "🥉",
-    "Nombre de TOP 5 / Ratio": "🏎️",
-    "Nombre de de TOP 10 / Ratio": "🚥",
-
+    "Nombre de courses en multi": "🏁",
+    "Nombre de tours": "🕓",
+    "Nombre de victoires / Ratio": "🏆",
+    "Nombre de podiums / Ratio": "🥉",
+    "Nombre de TOP 5 / Ratio": "5️⃣",
+    "Nombre de TOP10 / Ratio": "🔟",
     "Nombre de poles": "🎯",
-    "Ratio TOP 5": "📊",
-    "Ratio TOP 10": "📈"
+    "Position moyenne en course": "🚥",
+    "Position moyenne en Qualif.": "🛞",
 }
 
-# Nombre de tuiles par ligne
-tiles_per_row = 3
+#for _, row in filtered.iterrows():
+    #st.metric(label=row["Data"], value=row["Value"]) # Affichage dans une tuile simple
 
-# TILES POPULATING
-for i in range(0, len(df_general_data), tiles_per_row):
-    cols = st.columns(tiles_per_row)
+cols = st.columns(3)
+filtered = filtered.reset_index(drop=True)  # <<< Permet de forcer d'afficher la première tuile à gauche
 
-    for j in range(tiles_per_row):
-        if i + j < len(df_general_data):
-            row = df_general_data.iloc[i + j]
-            label = row["Data"]
-            value = row["Value"]
-            icon = icons.get(label, "❓")
+for i, row in filtered.iterrows():
+    label = row["Data"]
+    value = row["Value"]
+    icon = icons.get(label, "❓")
 
-            with cols[j]:
-                st.markdown(f"""
-                    <div style="
-                        background-color:#EEE6D8;
-                        padding:10px;
-                        border-radius:12px;
-                        text-align:center;
-                        color:black;
-                        width:100%;
-                        margin-bottom:20px;">
-                        <div style="font-size:40px; margin-bottom:10px;">{icon}</div>
-                        <div style="font-size:14px; opacity:0.7;">{label}</div>
-                        <div style="font-size:32px; font-weight:700; margin-top:1px;">{value}</div>
-                    </div>
-                """, unsafe_allow_html=True)
+    col = cols[i % 3]  # 0,1,2 puis 0,1,2...
+    #col = st.columns(cols)
+
+    with col:
+        st.markdown(f"""
+            <div style="
+                background-color:#EEE6D8;
+                padding:10px;
+                border-radius:12px;
+                text-align:center;
+                color:black;
+                width:100%;
+                margin-bottom:20px;">
+                <div style="font-size:40px; margin-bottom:10px;">{icon}</div>
+                <div style="font-size:14px; opacity:0.7;">{label}</div>
+                <div style="font-size:32px; font-weight:700; margin-top:1px;">{value}</div>
+            </div>
+        """, unsafe_allow_html=True)
+
+
+
+
+
+
+
+
+
+
+    # label=row["Data"]
+    # value=row["Value"]
+    # icon = icons.get(label, "❓")
+
+    # st.markdown(f"""
+    #         <div style="
+    #             background-color:#EEE6D8;
+    #             padding:10px;
+    #             border-radius:12px;
+    #             text-align:center;
+    #             color:black;
+    #             width:100%;
+    #             margin-bottom:20px;">
+    #             <div style="font-size:40px; margin-bottom:10px;">{icon}</div>
+    #             <div style="font-size:14px; opacity:0.7;">{label}</div>
+    #             <div style="font-size:32px; font-weight:700; margin-top:1px;">{value}</div>
+    #         </div>
+    #     """, unsafe_allow_html=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# CHOIX DES ICONES POUR LES TUILES
+# icons = {
+#     "Nombre de courses en multi": "🏁",
+#     "Nombre de tours": "🕓",
+#     "Nombre de victoires": "🏆",
+#     "Nombre de podiums / Ratio": "🥉",
+#     "Nombre de TOP 5 / Ratio": "5️⃣",
+#     "Nombre de TOP 10 / Ratio": "🔟",
+#     "Nombre de poles": "🎯",
+#     "Position moyenne en course": "🚥",
+#     "Position moyenne en Qualif.": "🛞",
+# }
+
+# # Nombre de tuiles par ligne
+# tiles_per_row = 3
+
+# # TILES POPULATING
+# for i in range(0, len(df_general_data), tiles_per_row):
+#     cols = st.columns(tiles_per_row)
+
+#     for j in range(tiles_per_row):
+#         if i + j < len(df_general_data):
+#             row = df_general_data.iloc[i + j]
+#             label = row["Data"]
+#             value = row["Value"]
+#             icon = icons.get(label, "❓")
+
+#             with cols[j]:
+#                 st.markdown(f"""
+#                     <div style="
+#                         background-color:#EEE6D8;
+#                         padding:10px;
+#                         border-radius:12px;
+#                         text-align:center;
+#                         color:black;
+#                         width:100%;
+#                         margin-bottom:20px;">
+#                         <div style="font-size:40px; margin-bottom:10px;">{icon}</div>
+#                         <div style="font-size:14px; opacity:0.7;">{label}</div>
+#                         <div style="font-size:32px; font-weight:700; margin-top:1px;">{value}</div>
+#                     </div>
+#                 """, unsafe_allow_html=True)
 
 
 # Choisir les colonnes du CSV à afficher
@@ -146,10 +251,10 @@ col1, col2 = st.columns(2)
 
 
 
-st.header("Ici un header")
-st.subheader("subheader")
+# st.header("Ici un header")
+# st.subheader("subheader")
 
 
-st.markdown("---")
+# st.markdown("---")
 
-st.text("Test d'un nouveau test ici en direct 2")
+# st.text("Test d'un nouveau test ici en direct 2")
