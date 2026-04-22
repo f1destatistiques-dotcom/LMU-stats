@@ -32,8 +32,14 @@ def format_value(v):
 
 
 # -------------------------------- N'affiche que les data Tours du fichier DATA général + filtrage possible
-categories = df_general_data["Category"].dropna().unique()
+ordre = ["Toutes", "GT3", "GTE", "LMP2", "LMP2_ELMS", "LMP3", "Hypercar"]
+# categories = df_general_data["Category"].dropna().unique()
+# cat_choice = st.selectbox("Choisir une catégorie :", categories)
+
+# On filtre pour ne garder que les catégories présentes dans le CSV
+categories = [cat for cat in ordre if cat in df_general_data["Category"].unique()]
 cat_choice = st.selectbox("Choisir une catégorie :", categories)
+
 
 filtered = df_general_data[df_general_data["Category"] == cat_choice]
 
