@@ -1,16 +1,32 @@
 Data,Value,Category
-Nombre de courses en multi,177
 Nombre de tours,3222,GT3
 Nombre de tours,33,Hypercar
-Nombre de tours,419,GTE
 Nombre de tours,600,LMP2
+Nombre de tours,419,GTE
 Nombre de tours,147,LMP2_ELMS
 Nombre de tours,301,LMP3
 Nombre de tours,4722,Toutes
+Nombre de courses en multi,27,LMP2
+Nombre de courses en multi,119,GT3
+Nombre de courses en multi,18,GTE
+Nombre de courses en multi,4,LMP2_ELMS
+Nombre de courses en multi,9,LMP3
+Nombre de courses en multi,177,Toutes
+Nombre de victoires / Ratio,1,GT3
+Nombre de victoires / Ratio,1 / 0.01,Toutes
+Position moyenne en course,10.74,LMP2
+Position moyenne en course,11.33,GT3
+Position moyenne en course,11,GTE
+Position moyenne en course,10.50,LMP2_ELMS
+Position moyenne en course,6.33,LMP3
 Position moyenne en course,10.93,Toutes
-Position moyenne en Qualif.,10.64
+Nombre de podiums / Ratio,2,GTE
+Nombre de podiums / Ratio,2,LMP2
+Nombre de podiums / Ratio,12,GT3
+Nombre de podiums / Ratio,1,LMP2_ELMS
+Nombre de podiums / Ratio,3,LMP3
+Nombre de podiums / Ratio,20 / 0.11,Toutes
+Position moyenne en Qualif.,10.64,Toutes
 Nombre de poles,7
-Nombre de victoires / Ratio,1 / 0.01
-Nombre de podiums / Ratio,20 / 0.11
-Nombre de TOP 5 / Ratio,40 / 0.23
-Nombre de TOP 10 / Ratio,91 / 0.51
+Nombre de TOP 5 / Ratio,40 / 0.23,Toutes
+Nombre de TOP 10 / Ratio,91 / 0.51,Toutes
