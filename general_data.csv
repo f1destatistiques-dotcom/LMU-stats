@@ -47,7 +47,7 @@ Nombre de poles,2,GTE
 Nombre de poles,1,LMP2
 Nombre de poles,1,LMP2_ELMS
 Nombre de poles,0,LMP3
-Nombre de poles,7
+Nombre de poles,7,Toutes
 Nombre de TOP 5 / Ratio,24,GT3
 Nombre de TOP 5 / Ratio,0,Hypercar
 Nombre de TOP 5 / Ratio,3,GTE
@@ -61,4 +61,4 @@ Nombre de TOP10 / Ratio,7,GTE
 Nombre de TOP10 / Ratio,15,LMP2
 Nombre de TOP10 / Ratio,2,LMP2_ELMS
 Nombre de TOP10 / Ratio,8,LMP3
-Nombre de TOP 10 / Ratio,91 / 0.51,Toutes
+Nombre de TOP10 / Ratio,91 / 0.51,Toutes
