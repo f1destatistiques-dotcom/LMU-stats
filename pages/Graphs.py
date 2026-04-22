@@ -13,8 +13,6 @@ df_lap_by_circuit = pd.read_csv(url_lap_by_circuit)
 # st.bar_chart(df_sorted.set_index("Circuit")["Tours"])
 
 
-import plotly.express as px
-
 df_sorted = df_lap_by_circuit.sort_values("Tours", ascending=False)
 
 fig = px.bar(
