@@ -1,5 +1,4 @@
 import streamlit as st
-import plotly.graph_objects as go
 
 st.set_page_config(layout="wide") # Permet un affichage en plein écran
 
