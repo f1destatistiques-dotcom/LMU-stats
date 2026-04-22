@@ -1,8 +1,16 @@
-Data,Value
+Data,Value,Catégorie
 Nombre de courses en multi,177
-Nombre de tour,4722
+Nombre de tours,3222,GT3
+Nombre de tours,33,Hypercar
+Nombre de tours,419,GTE
+Nombre de tours,600,LMP2
+Nombre de tours,147,LMP2_ELMS
+Nombre de tours,301,LMP3
+Nombre de tours,4722
+Position moyenne en course,10.93
+Position moyenne en Qualif.,10.64
 Nombre de poles,7
-Nombre de victoires,1
-Nombre de podiums,20
+Nombre de victoires / Ratio,1 / 0.01
+Nombre de podiums / Ratio,20 / 0.11
 Nombre de TOP 5 / Ratio,40 / 0.23
-Nombre de de TOP 10 / Ratio,91 / 0.51
+Nombre de TOP 10 / Ratio,91 / 0.51
