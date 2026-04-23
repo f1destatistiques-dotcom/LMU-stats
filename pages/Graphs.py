@@ -46,12 +46,30 @@ fig.add_trace(go.Scatter(
     x = df_last_20_races["Course"],
     y = df_last_20_races["Position"],
     mode="lines+markers",
-    line=dict(color="#5784BA", width=3),
-    marker=dict(size=10, color="#4B79B1"),
+    line=dict(color="#83A6D1", width=1),
+    marker=dict(size=10, color="#83A6D1"),
     fill="tozeroy",              # Remplissage sous la courbe
     line_shape="spline",         # Courbe arrondie
     name="Position"
 ))
+
+fig.add_hline(
+    y=5,
+    line_width=1,
+    line_dash="dash",
+    line_color="blue",
+    annotation_text="Top 5",
+    annotation_position="right"
+)
+
+fig.add_hline(
+    y=10,
+    line_width=1,
+    line_dash="dash",
+    line_color="orange",
+    annotation_text="Top 10",
+    annotation_position="right"
+)
 
 # # --- Labels séparés (toujours visibles) ---
 # fig.add_trace(go.Scatter(
