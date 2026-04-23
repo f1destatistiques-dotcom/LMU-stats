@@ -82,4 +82,4 @@ fig.add_hline(
 #     showlegend=False
 # ))
 
-st.plotly_chart(fig, config = {'scrollZoom': False})
+st.plotly_chart(fig, config={"staticPlot": True})
