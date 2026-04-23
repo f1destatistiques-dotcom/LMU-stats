@@ -32,7 +32,7 @@ fig.update_layout(height=800)
 #fig.update_traces(marker_pattern_shape="/")
 fig.update_traces(width=0.4)
 
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig, use_container_width=True, config={"staticPlot": True})
 
 
 # GRAPH DE LA POSITION D'ARRIVÉE DES 20 DERNIÈRES COURSES______________________________________________
