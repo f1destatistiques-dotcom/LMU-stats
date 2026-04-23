@@ -1,5 +1,123 @@
 Circuit,Voiture,Version,Record,Fichier source
-Circuit de Barcelona,Mercedes-AMG LMGT3,1.3000,1:43.096,2026_04_06_23_02_34-60Q1.xml
-Circuit de Barcelona,BMW M4 LMGT3,1.3000,1:43.337,2026_04_04_18_26_58-73Q1.xml
-Circuit de Barcelona,Aston Martin Vantage AMR LMGT3,1.3000,2:03.064,2026_04_03_20_23_01-53P1.xml
-Circuit de Barcelona,Ford Mustang LMGT3,1.3000,1:44.210,2026_04_03_19_37_08-28R1.xml
+Autodromo Nazionale Monza,Ford Mustang LMGT3,0.9200,1:52.507,2025_07_15_23_14_47-35R1.xml,GT3
+Autodromo Nazionale Monza,McLaren 720S LMGT3 Evo,0.5000,1:54.372,2025_04_23_00_23_48-45P1.xml,GT3
+Autodromo Nazionale Monza,Ferrari 499P,0.5000,1:42.187,2025_05_03_17_28_06-60P1.xml,Hypercar
+Autodromo Nazionale Monza,Corvette C8.R GTE,0.5000,1:52.697,2025_05_20_20_52_04-68P1.xml,GTE
+Autodromo Nazionale Monza,Aston Martin Vantage AMR,1.0110,0:00.000,2025_08_11_17_40_05-05P1.xml,GTE
+Autodromo Nazionale Monza,Ferrari 488 GTE EVO,1.0110,0:00.000,2025_08_11_19_37_16-65P1.xml,GTE
+Autodromo Nazionale Monza,Mercedes-AMG LMGT3,1.2000,1:51.659,2026_03_08_14_46_31-56R1.xml,GT3
+Autodromo Nazionale Monza,Oreca 07,1.1000,1:42.605,2025_09_28_19_51_50-17Q1.xml,LMP2
+Autodromo Nazionale Monza,BMW M4 LMGT3,1.2000,1:51.058,2026_03_04_17_36_59-61Q1.xml,GT3
+Autodromo Nazionale Monza,Porsche 911 GT3 R LMGT3,1.1000,1:51.845,2025_10_22_22_11_34-94Q1.xml,GT3
+Autodromo Nazionale Monza,Lexus RCF LMGT3,1.2000,1:50.720,2026_03_27_17_52_50-45R1.xml,GT3
+Bahrain International Circuit,Ferrari 499P,0.5000,1:57.104,2025_04_23_00_32_55-51P1.xml,Hypercar
+Bahrain International Circuit,Oreca 07,0.9200,1:52.973,2025_07_10_23_34_43-75R1.xml,LMP2
+Bahrain International Circuit,Mercedes-AMG LMGT3,1.0110,0:00.000,2025_08_05_23_55_38-59P1.xml,GT3
+Bahrain International Circuit,Ford Mustang LMGT3,1.0110,0:00.000,2025_08_09_21_31_00-71Q1.xml,GT3
+Bahrain International Circuit,Ferrari 488 GTE EVO,1.0200,2:01.520,2025_08_19_22_31_06-72Q1.xml,GTE
+Bahrain International Circuit,Aston Martin Valkyrie LMH,1.0200,1:49.866,2025_09_09_19_31_31-80P1.xml,Hypercar
+Bahrain International Circuit,Peugeot 9x8,1.0200,1:51.406,2025_09_12_22_33_40-57P1.xml,Hypercar
+Bahrain International Circuit,Alpine A424,1.0200,2:06.164,2025_09_12_22_41_07-31P1.xml,Hypercar
+Bahrain International Circuit,BMW M4 LMGT3,1.0200,2:03.082,2025_09_13_00_20_45-37R1.xml,GT3
+Bahrain International Circuit,Chevrolet Corvette Z06 LMGT3.R,1.0200,2:03.791,2025_09_13_00_28_04-13P1.xml,GT3
+Bahrain International Circuit,Aston Martin Vantage AMR LMGT3,1.0200,2:05.549,2025_09_13_00_34_38-33P1.xml,GT3
+Bahrain International Circuit,Porsche 911 GT3 R LMGT3,1.1000,2:02.500,2025_10_16_21_33_19-00Q1.xml,GT3
+Spa-Francorchamps,Aston Martin Vantage AMR,0.5000,2:25.377,2025_04_23_19_16_36-29P1.xml,GTE
+Spa-Francorchamps,Ferrari 488 GTE EVO,1.0200,2:20.117,2025_08_29_00_15_26-33R1.xml,GTE
+Spa-Francorchamps,Corvette C8.R GTE,0.5000,2:21.105,2025_04_27_19_57_47-30R1.xml,GTE
+Spa-Francorchamps,Mercedes-AMG LMGT3,1.0000,0:00.000,2025_07_23_20_06_16-34P1.xml,GT3
+Spa-Francorchamps,BMW M Hybrid V8,1.0200,2:09.650,2025_09_01_23_55_13-45P1.xml,Hypercar
+Spa-Francorchamps,Aston Martin Vantage AMR LMGT3,1.0200,2:23.093,2025_09_04_22_34_54-01P1.xml,GT3
+Spa-Francorchamps,Porsche 911 GT3 R LMGT3,1.1000,2:23.309,2025_11_07_21_10_16-98Q1.xml,GT3
+Spa-Francorchamps,Lexus RCF LMGT3,1.2000,2:20.637,2025_12_11_22_18_22-79P1.xml,GT3
+Spa-Francorchamps,Ginetta G61-LT-P325 Evo,1.2000,2:14.510,2025_12_13_22_29_11-22Q1.xml,LMP3
+Spa-Francorchamps,Oreca 07,1.2000,2:06.079,2025_12_15_22_28_54-69Q1.xml,LMP2_ELMS
+Spa-Francorchamps,Ferrari 296 LMGT3,1.2000,2:20.989,2026_01_18_00_31_57-87P1.xml,GT3
+Spa-Francorchamps,Lamborghini Huracan LMGT3 Evo2,1.2000,2:22.618,2026_01_16_23_15_51-55P1.xml,GT3
+Spa-Francorchamps,Ligier JS P325,1.2000,2:16.326,2026_01_29_22_13_03-41P1.xml,LMP3
+Spa-Francorchamps,McLaren 720S LMGT3 Evo,1.2000,2:22.062,2026_02_28_12_32_32-86Q1.xml,GT3
+Algarve International Circuit,Oreca 07,1.2000,1:36.721,2026_01_08_21_27_21-35P1.xml,LMP2_ELMS
+Algarve International Circuit,Ford Mustang LMGT3,0.5000,1:48.948,2025_05_02_15_37_47-98R1.xml,GT3
+Algarve International Circuit,Mercedes-AMG LMGT3,1.0110,0:00.000,2025_07_31_21_57_21-73P1.xml,GT3
+Algarve International Circuit,BMW M4 LMGT3,1.3000,1:46.439,2026_04_14_23_05_43-57P1.xml,GT3
+Fuji Speedway,Ford Mustang LMGT3,0.5000,1:43.088,2025_04_25_16_52_54-27P1.xml,GT3
+Fuji Speedway,Oreca 07,0.9200,1:34.906,2025_07_19_23_35_03-80R1.xml,LMP2
+Fuji Speedway,Mercedes-AMG LMGT3,1.0000,0:00.000,2025_07_23_22_39_10-00P1.xml,GT3
+Sebring International Raceway,Corvette C8.R GTE,1.0110,0:00.000,2025_07_31_22_57_22-29P1.xml,GTE
+Sebring International Raceway,Ferrari 488 GTE EVO,1.0110,0:00.000,2025_07_31_22_44_24-03P1.xml,GTE
+Sebring International Raceway,Ford Mustang LMGT3,1.2000,2:02.761,2026_03_15_17_10_16-61Q1.xml,GT3
+Sebring International Raceway,Oreca 07,1.0110,0:00.000,2025_08_05_20_21_08-61P1.xml,LMP2
+Sebring International Raceway,Porsche 911 RSR-19,1.0110,0:00.000,2025_08_01_17_58_41-24P1.xml,GTE
+Sebring International Raceway,Mercedes-AMG LMGT3,1.2000,2:02.593,2026_03_22_15_23_03-41Q1.xml,GT3
+Sebring International Raceway,Aston Martin Vantage AMR LMGT3,1.0200,2:06.470,2025_09_04_23_24_24-90R1.xml,GT3
+Sebring International Raceway,Porsche 911 GT3 R LMGT3,1.2000,2:04.314,2025_12_28_21_38_50-21P1.xml,GT3
+Sebring International Raceway,Ferrari 296 LMGT3,1.2000,2:04.258,2026_01_14_20_53_17-91R1.xml,GT3
+Sebring International Raceway,Chevrolet Corvette Z06 LMGT3.R,1.1000,2:11.006,2025_09_28_18_48_21-16P1.xml,GT3
+Sebring International Raceway,Lexus RCF LMGT3,1.1000,2:05.102,2025_10_28_21_27_23-73P1.xml,GT3
+Sebring International Raceway,Lamborghini Huracan LMGT3 Evo2,1.2000,2:03.997,2026_02_06_21_45_30-97P1.xml,GT3
+Sebring International Raceway,Ginetta G61-LT-P325 Evo,1.2000,1:57.688,2026_01_01_22_28_54-44Q1.xml,LMP3
+Bahrain Outer Circuit,Corvette C8.R GTE,0.5000,1:14.049,2025_05_18_00_13_13-76Q1.xml,GTE
+Bahrain Outer Circuit,Aston Martin Vantage AMR,0.5000,1:14.093,2025_05_17_23_13_13-96Q1.xml,GTE
+Bahrain Outer Circuit,Ferrari 488 GTE EVO,0.5000,1:13.912,2025_05_18_01_10_25-96P1.xml,GTE
+Bahrain Outer Circuit,Oreca 07,1.0200,1:08.602,2025_08_31_19_57_20-65Q1.xml,LMP2
+Bahrain Outer Circuit,Mercedes-AMG LMGT3,1.0200,1:14.574,2025_09_20_22_38_58-97P1.xml,GT3
+Bahrain Outer Circuit,Aston Martin Vantage AMR LMGT3,1.0200,1:15.284,2025_09_18_22_50_22-48Q1.xml,GT3
+Bahrain Outer Circuit,Porsche 911 GT3 R LMGT3,1.2000,1:13.649,2026_02_08_16_47_17-26P1.xml,GT3
+Bahrain Outer Circuit,Lexus RCF LMGT3,1.2000,1:14.147,2026_02_08_17_04_39-94P1.xml,GT3
+Bahrain Outer Circuit,Ferrari 296 LMGT3,1.2000,1:13.671,2026_02_15_18_58_42-51P1.xml,GT3
+Circuit de la Sarthe,Ford Mustang LMGT3,0.5000,4:09.409,2025_05_23_19_39_04-49P1.xml,GT3
+Circuit de la Sarthe,BMW M4 LMGT3,1.1000,4:04.964,2025_11_25_22_08_43-54P1.xml,GT3
+Circuit de la Sarthe,Mercedes-AMG LMGT3,1.1000,4:02.931,2025_11_26_23_47_49-38P1.xml,GT3
+Circuit de la Sarthe,McLaren 720S LMGT3 Evo,1.1000,4:08.047,2025_11_24_22_01_25-14P1.xml,GT3
+Fuji Speedway Classic,Aston Martin Vantage AMR,1.0110,0:00.000,2025_08_13_00_27_42-52P1.xml,GTE
+Fuji Speedway Classic,Ferrari 488 GTE EVO,1.0110,0:00.000,2025_08_13_00_37_51-05P1.xml,GTE
+Fuji Speedway Classic,Oreca 07,1.0200,1:35.958,2025_09_09_18_32_05-97P1.xml,LMP2
+Fuji Speedway Classic,Porsche 911 GT3 R LMGT3,1.1000,1:39.697,2025_10_17_16_11_45-39Q1.xml,GT3
+Fuji Speedway Classic,BMW M4 LMGT3,1.1000,1:39.255,2025_10_20_23_05_44-82P1.xml,GT3
+Fuji Speedway Classic,Mercedes-AMG LMGT3,1.2000,1:38.345,2026_01_03_21_29_47-84Q1.xml,GT3
+Monza Curva Grande Circuit,Mercedes-AMG LMGT3,1.0200,1:43.397,2025_08_29_23_10_44-26P1.xml,GT3
+Bahrain Paddock Circuit,Mercedes-AMG LMGT3,1.0200,2:38.218,2025_09_06_19_26_29-26P1.xml,GT3
+Autodromo Enzo e Dino Ferrari,BMW M4 LMGT3,1.0200,1:46.879,2025_09_12_22_12_34-94P1.xml,GT3
+Autodromo Enzo e Dino Ferrari,Oreca 07,1.2000,1:34.660,2026_02_24_12_37_54-45P1.xml,LMP2_ELMS
+Autodromo Enzo e Dino Ferrari,Mercedes-AMG LMGT3,1.2000,1:45.933,2026_01_15_22_33_05-00P1.xml,GT3
+Autodromo Enzo e Dino Ferrari,Ligier JS P325,1.1000,1:57.650,2025_10_20_23_13_26-65P1.xml,LMP3
+Autodromo Enzo e Dino Ferrari,Porsche 911 GT3 R LMGT3,1.1000,1:47.077,2025_10_23_21_50_23-72P1.xml,GT3
+Autodromo Enzo e Dino Ferrari,Ginetta G61-LT-P325 Evo,1.2000,1:40.379,2026_01_09_22_28_10-72Q1.xml,LMP3
+Autodromo Enzo e Dino Ferrari,Lamborghini Huracan LMGT3 Evo2,1.2000,1:44.863,2026_01_15_22_02_33-21P1.xml,GT3
+Autodromo Enzo e Dino Ferrari,Lexus RCF LMGT3,1.2000,1:45.554,2026_01_15_22_10_37-94P1.xml,GT3
+Autodromo Enzo e Dino Ferrari,Ferrari 296 LMGT3,1.2000,1:45.593,2026_01_15_22_19_29-25P1.xml,GT3
+Autodromo Enzo e Dino Ferrari,Aston Martin Vantage AMR LMGT3,1.2000,1:47.971,2026_02_24_13_01_27-17P1.xml,GT3
+Sebring School Circuit,Ferrari 488 GTE EVO,1.0200,1:05.536,2025_09_18_22_17_28-65P1.xml,GTE
+Autódromo José Carlos Pace,Peugeot 9x8,1.0200,1:31.150,2025_09_18_23_09_11-46P1.xml,Hypercar
+Autódromo José Carlos Pace,Oreca 07,1.1000,1:26.579,2025_09_30_21_59_01-77Q1.xml,LMP2_ELMS
+Autódromo José Carlos Pace,Porsche 911 GT3 R LMGT3,1.1000,1:38.221,2025_10_22_23_23_20-62P1.xml,GT3
+Autódromo José Carlos Pace,BMW M4 LMGT3,1.1000,1:38.113,2025_10_22_23_30_50-57P1.xml,GT3
+Autódromo José Carlos Pace,McLaren 720S LMGT3 Evo,1.2000,1:37.011,2026_01_23_22_17_51-84P1.xml,GT3
+Autódromo José Carlos Pace,Mercedes-AMG LMGT3,1.2000,1:36.505,2026_01_23_22_46_43-06Q1.xml,GT3
+Autódromo José Carlos Pace,Ferrari 296 LMGT3,1.2000,1:36.395,2026_02_21_14_01_29-43Q1.xml,GT3
+Circuit of the Americas,Chevrolet Corvette Z06 LMGT3.R,1.1000,2:14.643,2025_10_15_18_51_52-40P1.xml,GT3
+Circuit of the Americas,Ferrari 296 LMGT3,1.1000,2:11.972,2025_10_15_19_12_37-44P1.xml,GT3
+Circuit of the Americas,Porsche 911 GT3 R LMGT3,1.1000,2:11.547,2025_10_15_21_49_15-19P1.xml,GT3
+Circuit of the Americas,Oreca 07,1.2000,1:57.467,2026_01_20_23_14_45-46P1.xml,LMP2_ELMS
+Circuit of the Americas,Ginetta G61-LT-P325 Evo,1.2000,2:15.579,2026_01_20_23_22_59-66P1.xml,LMP3
+Circuit of the Americas,Mercedes-AMG LMGT3,1.2000,2:10.976,2026_03_14_14_40_16-51P1.xml,GT3
+Silverstone Grand Prix Circuit - ELMS,Ligier JS P325,1.1000,2:00.336,2025_10_16_22_30_10-38P1.xml,LMP3
+Silverstone Grand Prix Circuit - ELMS,Porsche 911 GT3 R LMGT3,1.2000,2:02.253,2026_02_03_21_27_34-57P1.xml,GT3
+Silverstone Grand Prix Circuit - ELMS,Ferrari 296 LMGT3,1.2000,2:01.184,2026_01_02_16_43_49-73Q1.xml,GT3
+Silverstone Grand Prix Circuit - ELMS,Ginetta G61-LT-P325 Evo,1.2000,2:07.628,2026_01_20_22_10_06-46P1.xml,LMP3
+Silverstone Grand Prix Circuit - ELMS,Lexus RCF LMGT3,1.2000,2:02.340,2026_02_06_22_28_03-73P1.xml,GT3
+Lusail International Circuit,Lamborghini Huracan LMGT3 Evo2,1.1000,2:06.043,2025_11_15_21_13_25-96P1.xml,GT3
+Lusail International Circuit,Aston Martin Vantage AMR LMGT3,1.1000,2:06.339,2025_11_15_21_29_02-47P1.xml,GT3
+Lusail International Circuit,Porsche 911 GT3 R LMGT3,1.1000,1:59.791,2025_11_16_15_01_48-31Q1.xml,GT3
+Lusail International Circuit,Mercedes-AMG LMGT3,1.2000,1:58.616,2026_03_26_21_16_42-97Q1.xml,GT3
+Lusail International Circuit,Lexus RCF LMGT3,1.1000,1:59.334,2025_12_07_23_12_54-74P1.xml,GT3
+Lusail International Circuit,Ferrari 296 LMGT3,1.2000,1:57.634,2026_01_14_19_29_03-77Q1.xml,GT3
+Lusail International Circuit,Ford Mustang LMGT3,1.2000,1:57.624,2026_03_17_17_21_54-74Q1.xml,GT3
+Paul Ricard - ELMS,Ginetta G61-LT-P325 Evo,1.2000,2:00.999,2025_12_12_22_50_33-65P1.xml,LMP3
+Circuit de Barcelona,Ford Mustang LMGT3,1.3000,1:43.063,2026_04_03_17_43_44-76P1.xml,GT3
+Circuit de Barcelona,Lexus RCF LMGT3,1.3000,1:45.350,2026_04_03_16_15_12-75P1.xml,GT3
+Circuit de Barcelona,Chevrolet Corvette Z06 LMGT3.R,1.3000,1:44.035,2026_04_03_16_32_47-78P1.xml,GT3
+Circuit de Barcelona,Ferrari 296 LMGT3,1.3000,1:42.866,2026_04_10_19_44_49-67P1.xml,GT3
+Circuit de Barcelona,Aston Martin Vantage AMR LMGT3,1.3000,2:03.064,2026_04_03_20_23_01-53P1.xml,GT3
+Circuit de Barcelona,BMW M4 LMGT3,1.3000,1:43.337,2026_04_04_18_26_58-73Q1.xml,GT3
+Circuit de Barcelona,Mercedes-AMG LMGT3,1.3000,1:42.962,2026_04_07_22_16_07-88P1.xml,GT3
