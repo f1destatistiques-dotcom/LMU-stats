@@ -47,7 +47,7 @@ fig.add_trace(go.Scatter(
     y = df_last_20_races["Position"],
     mode="lines+markers",
     line=dict(color="#83A6D1", width=1),
-    marker=dict(size=10, color="#83A6D1"),
+    marker=dict(size=7, color="#83A6D1"),
     fill="tozeroy",              # Remplissage sous la courbe
     line_shape="spline",         # Courbe arrondie
     name="Position"
