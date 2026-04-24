@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 
-#st.set_page_config(layout="wide") # Permet un affichage en plein écran
+st.set_page_config(layout="wide") # Permet un affichage en plein écran
 
 st.sidebar.success('Homer')
 
