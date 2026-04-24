@@ -10,7 +10,7 @@ df_record_data = pd.read_csv(url_record_data)
 
 colonnes_a_afficher = ["Voiture", "Record", "Version"]
 
-st.image('Bacelone foncé.png', width=600, use_container_width=True)
+#st.image('Bacelone foncé.png', width=600, use_container_width=True)
 
 
 # AFFICHAGE POUR LA SECTION GT3___________________________________________________________________________________________________________
