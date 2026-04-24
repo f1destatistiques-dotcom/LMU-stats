@@ -1,7 +1,7 @@
 Track,Data,Value
 Monza,Nombre de tours,446
 Bahrein,Nombre de tours,360
-Spa-Francorchamps,Nombre de tours,569
+Spa-Francorchamps,Nombre de tours,512
 Algarve,Nombre de tours,134
 Fuji,Nombre de tours,288
 Sebring,Nombre de tours,811
@@ -10,14 +10,14 @@ Le Mans,Nombre de tours,120
 Fuji (classic),Nombre de tours,170
 Monza (Grande),Nombre de tours,5
 Bahrein (Paddock),Nombre de tours,2
-Imola,Nombre de tours,240
+Imola,Nombre de tours,235
 Sebring (school),Nombre de tours,4
-Interlago,Nombre de tours,157
+Interlagos,Nombre de tours,157
 COTA,Nombre de tours,130
 Silverstone,Nombre de tours,161
 Lusail,Nombre de tours,286
 Paul Ricard,Nombre de tours,53
-Barcelone,Nombre de tours,397
+Barcelone,Nombre de tours,382
 Monza,Nombre de victoires,0
 Bahrein,Nombre de victoires,0
 Spa-Francorchamps,Nombre de victoires,0
@@ -31,28 +31,142 @@ Monza (Grande),Nombre de victoires,0
 Bahrein (Paddock),Nombre de victoires,0
 Imola,Nombre de victoires,0
 Sebring (school),Nombre de victoires,0
-Interlago,Nombre de victoires,0
+Interlagos,Nombre de victoires,0
 COTA,Nombre de victoires,0
 Silverstone,Nombre de victoires,0
 Lusail,Nombre de victoires,0
 Paul Ricard,Nombre de victoires,0
 Barcelone,Nombre de victoires,0
-Monza,Position moyenne à l'arrivée,11.68
-Bahrein,Position moyenne à l'arrivée,11.32
-Spa-Francorchamps,Position moyenne à l'arrivée,10.30
-Algarve,Position moyenne à l'arrivée,8.25
-Fuji,Position moyenne à l'arrivée,11
-Sebring,Position moyenne à l'arrivée,9.65
-Bahrein (Outer),Position moyenne à l'arrivée,11.64
-Le Mans,Position moyenne à l'arrivée,10.25
-Fuji (classic),Position moyenne à l'arrivée,11.50
-Monza (Grande),Position moyenne à l'arrivée,0
-Bahrein (Paddock),Position moyenne à l'arrivée,0
-Imola,Position moyenne à l'arrivée,11.57
-Sebring (school),Position moyenne à l'arrivée,0
-Interlago,Position moyenne à l'arrivée,15.50
-COTA,Position moyenne à l'arrivée,6.25
-Silverstone,Position moyenne à l'arrivée,12.67
-Lusail,Position moyenne à l'arrivée,13.38
-Paul Ricard,Position moyenne à l'arrivée,7
-Barcelone,Position moyenne à l'arrivée,9.29
+Monza,Position moyenne Ã  l'arrivÃ©e,11.68
+Bahrein,Position moyenne Ã  l'arrivÃ©e,11.32
+Spa-Francorchamps,Position moyenne Ã  l'arrivÃ©e,10.53
+Algarve,Position moyenne Ã  l'arrivÃ©e,8.25
+Fuji,Position moyenne Ã  l'arrivÃ©e,11
+Sebring,Position moyenne Ã  l'arrivÃ©e,9.65
+Bahrein (Outer),Position moyenne Ã  l'arrivÃ©e,11.64
+Le Mans,Position moyenne Ã  l'arrivÃ©e,10.25
+Fuji (classic),Position moyenne Ã  l'arrivÃ©e,11.50
+Monza (Grande),Position moyenne Ã  l'arrivÃ©e,0
+Bahrein (Paddock),Position moyenne Ã  l'arrivÃ©e,0
+Imola,Position moyenne Ã  l'arrivÃ©e,11.57
+Sebring (school),Position moyenne Ã  l'arrivÃ©e,0
+Interlagos,Position moyenne Ã  l'arrivÃ©e,15.50
+COTA,Position moyenne Ã  l'arrivÃ©e,6.25
+Silverstone,Position moyenne Ã  l'arrivÃ©e,12.67
+Lusail,Position moyenne Ã  l'arrivÃ©e,13.38
+Paul Ricard,Position moyenne Ã  l'arrivÃ©e,7
+Barcelone,Position moyenne Ã  l'arrivÃ©e,9.29
+Monza,Position moyenne en qualif.,12.05
+Bahrein,Position moyenne en qualif.,9.53
+Spa-Francorchamps,Position moyenne en qualif.,9.47
+Algarve,Position moyenne en qualif.,11.33
+Fuji,Position moyenne en qualif.,11.50
+Sebring,Position moyenne en qualif.,11.06
+Bahrein (Outer),Position moyenne en qualif.,12.45
+Le Mans,Position moyenne en qualif.,9
+Fuji (classic),Position moyenne en qualif.,9.62
+Monza (Grande),Position moyenne en qualif.,0
+Bahrein (Paddock),Position moyenne en qualif.,0
+Imola,Position moyenne en qualif.,7.71
+Sebring (school),Position moyenne en qualif.,0
+Interlagos,Position moyenne en qualif.,11.75
+COTA,Position moyenne en qualif.,4
+Silverstone,Position moyenne en qualif.,14.33
+Lusail,Position moyenne en qualif.,13.85
+Paul Ricard,Position moyenne en qualif.,4
+Barcelone,Position moyenne en qualif.,9.20
+Monza,Nombre de podium,1
+Bahrein,Nombre de podium,2
+Spa-Francorchamps,Nombre de podium,1
+Algarve,Nombre de podium,0
+Fuji,Nombre de podium,2
+Sebring,Nombre de podium,3
+Bahrein (Outer),Nombre de podium,1
+Le Mans,Nombre de podium,0
+Fuji (classic),Nombre de podium,1
+Monza (Grande),Nombre de podium,0
+Bahrein (Paddock),Nombre de podium,0
+Imola,Nombre de podium,2
+Sebring (school),Nombre de podium,0
+Interlagos,Nombre de podium,1
+COTA,Nombre de podium,2
+Silverstone,Nombre de podium,0
+Lusail,Nombre de podium,0
+Paul Ricard,Nombre de podium,0
+Barcelone,Nombre de podium,4
+Monza,Nombre de TOP5,3
+Bahrein,Nombre de TOP5,6
+Spa-Francorchamps,Nombre de TOP5,3
+Algarve,Nombre de TOP5,0
+Fuji,Nombre de TOP5,3
+Sebring,Nombre de TOP5,8
+Bahrein (Outer),Nombre de TOP5,3
+Le Mans,Nombre de TOP5,0
+Fuji (classic),Nombre de TOP5,1
+Monza (Grande),Nombre de TOP5,0
+Bahrein (Paddock),Nombre de TOP5,0
+Imola,Nombre de TOP5,3
+Sebring (school),Nombre de TOP5,0
+Interlagos,Nombre de TOP5,1
+COTA,Nombre de TOP5,3
+Silverstone,Nombre de TOP5,1
+Lusail,Nombre de TOP5,1
+Paul Ricard,Nombre de TOP5,0
+Barcelone,Nombre de TOP5,4
+Monza,Nombre de TOP10,9
+Bahrein,Nombre de TOP10,10
+Spa-Francorchamps,Nombre de TOP10,8
+Algarve,Nombre de TOP10,3
+Fuji,Nombre de TOP10,6
+Sebring,Nombre de TOP10,24
+Bahrein (Outer),Nombre de TOP10,4
+Le Mans,Nombre de TOP10,3
+Fuji (classic),Nombre de TOP10,3
+Monza (Grande),Nombre de TOP10,0
+Bahrein (Paddock),Nombre de TOP10,0
+Imola,Nombre de TOP10,3
+Sebring (school),Nombre de TOP10,0
+Interlagos,Nombre de TOP10,1
+COTA,Nombre de TOP10,3
+Silverstone,Nombre de TOP10,3
+Lusail,Nombre de TOP10,6
+Paul Ricard,Nombre de TOP10,1
+Barcelone,Nombre de TOP10,4
+Monza,Nombre de poles,1
+Bahrein,Nombre de poles,2
+Spa-Francorchamps,Nombre de poles,0
+Algarve,Nombre de poles,0
+Fuji,Nombre de poles,0
+Sebring,Nombre de poles,2
+Bahrein (Outer),Nombre de poles,0
+Le Mans,Nombre de poles,0
+Fuji (classic),Nombre de poles,0
+Monza (Grande),Nombre de poles,0
+Bahrein (Paddock),Nombre de poles,0
+Imola,Nombre de poles,0
+Sebring (school),Nombre de poles,0
+Interlagos,Nombre de poles,1
+COTA,Nombre de poles,1
+Silverstone,Nombre de poles,0
+Lusail,Nombre de poles,0
+Paul Ricard,Nombre de poles,0
+Barcelone,Nombre de poles,0
+Monza,Nombre de DNF,2
+Bahrein,Nombre de DNF,6
+Spa-Francorchamps,Nombre de DNF,1
+Algarve,Nombre de DNF,0
+Fuji,Nombre de DNF,2
+Sebring,Nombre de DNF,4
+Bahrein (Outer),Nombre de DNF,4
+Le Mans,Nombre de DNF,1
+Fuji (classic),Nombre de DNF,1
+Monza (Grande),Nombre de DNF,0
+Bahrein (Paddock),Nombre de DNF,0
+Imola,Nombre de DNF,4
+Sebring (school),Nombre de DNF,0
+Interlagos,Nombre de DNF,1
+COTA,Nombre de DNF,1
+Silverstone,Nombre de DNF,0
+Lusail,Nombre de DNF,3
+Paul Ricard,Nombre de DNF,0
+Barcelone,Nombre de DNF,1
