@@ -1,23 +1,4 @@
 Track,Data,Value
-Monza,Nombre de courses en multi,22
-Bahrein,Nombre de courses en multi,19
-Spa-Francorchamps,Nombre de courses en multi,17
-Algarve,Nombre de courses en multi,4
-Fuji,Nombre de courses en multi,13
-Sebring,Nombre de courses en multi,37
-Bahrein (Outer),Nombre de courses en multi,11
-Le Mans,Nombre de courses en multi,4
-Fuji (classic),Nombre de courses en multi,8
-Monza (Grande),Nombre de courses en multi,0
-Bahrein (Paddock),Nombre de courses en multi,0
-Imola,Nombre de courses en multi,7
-Sebring (school),Nombre de courses en multi,0
-Interlagos,Nombre de courses en multi,4
-COTA,Nombre de courses en multi,4
-Silverstone,Nombre de courses en multi,6
-Lusail,Nombre de courses en multi,13
-Paul Ricard,Nombre de courses en multi,1
-Barcelone,Nombre de courses en multi,7
 Monza,Nombre de tours,446
 Bahrein,Nombre de tours,360
 Spa-Francorchamps,Nombre de tours,512
@@ -37,25 +18,25 @@ Silverstone,Nombre de tours,161
 Lusail,Nombre de tours,286
 Paul Ricard,Nombre de tours,53
 Barcelone,Nombre de tours,382
-Monza,Nombre de victoires,0
-Bahrein,Nombre de victoires,0
-Spa-Francorchamps,Nombre de victoires,0
-Algarve,Nombre de victoires,0
-Fuji,Nombre de victoires,0
-Sebring,Nombre de victoires,0
-Bahrein (Outer),Nombre de victoires,0
-Le Mans,Nombre de victoires,0
-Fuji (classic),Nombre de victoires,1
-Monza (Grande),Nombre de victoires,0
-Bahrein (Paddock),Nombre de victoires,0
-Imola,Nombre de victoires,0
-Sebring (school),Nombre de victoires,0
-Interlagos,Nombre de victoires,0
-COTA,Nombre de victoires,0
-Silverstone,Nombre de victoires,0
-Lusail,Nombre de victoires,0
-Paul Ricard,Nombre de victoires,0
-Barcelone,Nombre de victoires,0
+Monza,Nombre de courses en multi,22
+Bahrein,Nombre de courses en multi,19
+Spa-Francorchamps,Nombre de courses en multi,17
+Algarve,Nombre de courses en multi,4
+Fuji,Nombre de courses en multi,13
+Sebring,Nombre de courses en multi,37
+Bahrein (Outer),Nombre de courses en multi,11
+Le Mans,Nombre de courses en multi,4
+Fuji (classic),Nombre de courses en multi,8
+Monza (Grande),Nombre de courses en multi,0
+Bahrein (Paddock),Nombre de courses en multi,0
+Imola,Nombre de courses en multi,7
+Sebring (school),Nombre de courses en multi,0
+Interlagos,Nombre de courses en multi,4
+COTA,Nombre de courses en multi,4
+Silverstone,Nombre de courses en multi,6
+Lusail,Nombre de courses en multi,13
+Paul Ricard,Nombre de courses en multi,1
+Barcelone,Nombre de courses en multi,7
 Monza,Position moyenne en course,11.68
 Bahrein,Position moyenne en course,11.32
 Spa-Francorchamps,Position moyenne en course,10.53
@@ -75,25 +56,25 @@ Silverstone,Position moyenne en course,12.67
 Lusail,Position moyenne en course,13.38
 Paul Ricard,Position moyenne en course,7
 Barcelone,Position moyenne en course,9.29
-Monza,Position moyenne en qualif.,12.05
-Bahrein,Position moyenne en qualif.,9.53
-Spa-Francorchamps,Position moyenne en qualif.,9.47
-Algarve,Position moyenne en qualif.,11.33
-Fuji,Position moyenne en qualif.,11.50
-Sebring,Position moyenne en qualif.,11.06
-Bahrein (Outer),Position moyenne en qualif.,12.45
-Le Mans,Position moyenne en qualif.,9
-Fuji (classic),Position moyenne en qualif.,9.62
-Monza (Grande),Position moyenne en qualif.,0
-Bahrein (Paddock),Position moyenne en qualif.,0
-Imola,Position moyenne en qualif.,7.71
-Sebring (school),Position moyenne en qualif.,0
-Interlagos,Position moyenne en qualif.,11.75
-COTA,Position moyenne en qualif.,4
-Silverstone,Position moyenne en qualif.,14.33
-Lusail,Position moyenne en qualif.,13.85
-Paul Ricard,Position moyenne en qualif.,4
-Barcelone,Position moyenne en qualif.,9.20
+Monza,Nombre de victoires,0
+Bahrein,Nombre de victoires,0
+Spa-Francorchamps,Nombre de victoires,0
+Algarve,Nombre de victoires,0
+Fuji,Nombre de victoires,0
+Sebring,Nombre de victoires,0
+Bahrein (Outer),Nombre de victoires,0
+Le Mans,Nombre de victoires,0
+Fuji (classic),Nombre de victoires,1
+Monza (Grande),Nombre de victoires,0
+Bahrein (Paddock),Nombre de victoires,0
+Imola,Nombre de victoires,0
+Sebring (school),Nombre de victoires,0
+Interlagos,Nombre de victoires,0
+COTA,Nombre de victoires,0
+Silverstone,Nombre de victoires,0
+Lusail,Nombre de victoires,0
+Paul Ricard,Nombre de victoires,0
+Barcelone,Nombre de victoires,0
 Monza,Nombre de podium,1
 Bahrein,Nombre de podium,2
 Spa-Francorchamps,Nombre de podium,1
@@ -170,6 +151,25 @@ Silverstone,Nombre de poles,0
 Lusail,Nombre de poles,0
 Paul Ricard,Nombre de poles,0
 Barcelone,Nombre de poles,0
+Monza,Position moyenne en qualif.,12.05
+Bahrein,Position moyenne en qualif.,9.53
+Spa-Francorchamps,Position moyenne en qualif.,9.47
+Algarve,Position moyenne en qualif.,11.33
+Fuji,Position moyenne en qualif.,11.50
+Sebring,Position moyenne en qualif.,11.06
+Bahrein (Outer),Position moyenne en qualif.,12.45
+Le Mans,Position moyenne en qualif.,9
+Fuji (classic),Position moyenne en qualif.,9.62
+Monza (Grande),Position moyenne en qualif.,0
+Bahrein (Paddock),Position moyenne en qualif.,0
+Imola,Position moyenne en qualif.,7.71
+Sebring (school),Position moyenne en qualif.,0
+Interlagos,Position moyenne en qualif.,11.75
+COTA,Position moyenne en qualif.,4
+Silverstone,Position moyenne en qualif.,14.33
+Lusail,Position moyenne en qualif.,13.85
+Paul Ricard,Position moyenne en qualif.,4
+Barcelone,Position moyenne en qualif.,9.20
 Monza,Nombre de DNF,2
 Bahrein,Nombre de DNF,6
 Spa-Francorchamps,Nombre de DNF,1
