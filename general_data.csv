@@ -1,11 +1,11 @@
 Data,Value,Category
-Nombre de tours,3222,GT3
-Nombre de tours,33,Hypercar
+Nombre de tours,3279,GT3
+Nombre de tours,53,Hypercar
 Nombre de tours,600,LMP2
 Nombre de tours,419,GTE
 Nombre de tours,147,LMP2_ELMS
 Nombre de tours,301,LMP3
-Nombre de tours,4722,Toutes
+Nombre de tours,4799,Toutes
 Nombre de victoires / Ratio,1,GT3
 Nombre de victoires / Ratio,0,Hypercar
 Nombre de victoires / Ratio,0,GTE
@@ -13,20 +13,20 @@ Nombre de victoires / Ratio,0,LMP2
 Nombre de victoires / Ratio,0,LMP2_ELMS
 Nombre de victoires / Ratio,0,LMP3
 Nombre de victoires / Ratio,1 / 0.01,Toutes
-Nombre de TOP10 / Ratio,59,GT3
+Nombre de TOP10 / Ratio,61,GT3
 Nombre de TOP10 / Ratio,0,Hypercar
 Nombre de TOP10 / Ratio,7,GTE
 Nombre de TOP10 / Ratio,15,LMP2
 Nombre de TOP10 / Ratio,2,LMP2_ELMS
 Nombre de TOP10 / Ratio,8,LMP3
-Nombre de TOP10 / Ratio,91 / 0.51,Toutes
-Nombre de courses en multi,119,GT3
+Nombre de TOP10 / Ratio,93 / 0.52,Toutes
+Nombre de courses en multi,122,GT3
 Nombre de courses en multi,0,Hypercar
 Nombre de courses en multi,18,GTE
 Nombre de courses en multi,27,LMP2
 Nombre de courses en multi,4,LMP2_ELMS
 Nombre de courses en multi,9,LMP3
-Nombre de courses en multi,177,Toutes
+Nombre de courses en multi,180,Toutes
 Nombre de podiums / Ratio,12,GT3
 Nombre de podiums / Ratio,0,Hypercar
 Nombre de podiums / Ratio,2,GTE
@@ -41,20 +41,20 @@ Nombre de poles,1,LMP2
 Nombre de poles,1,LMP2_ELMS
 Nombre de poles,0,LMP3
 Nombre de poles,7,Toutes
-Position moyenne en course,11.33,GT3
+Position moyenne en course,11.27,GT3
 Position moyenne en course,0,Hypercar
 Position moyenne en course,11,GTE
 Position moyenne en course,10.74,LMP2
 Position moyenne en course,10.50,LMP2_ELMS
 Position moyenne en course,6.33,LMP3
-Position moyenne en course,10.93,Toutes
-Nombre de TOP 5 / Ratio,24,GT3
+Position moyenne en course,10.90,Toutes
+Nombre de TOP 5 / Ratio,25,GT3
 Nombre de TOP 5 / Ratio,0,Hypercar
 Nombre de TOP 5 / Ratio,3,GTE
 Nombre de TOP 5 / Ratio,8,LMP2
 Nombre de TOP 5 / Ratio,1,LMP2_ELMS
 Nombre de TOP 5 / Ratio,4,LMP3
-Nombre de TOP 5 / Ratio,40 / 0.23,Toutes
+Nombre de TOP 5 / Ratio,41 / 0.23,Toutes
 Position moyenne en Qualif.,11.07,GT3
 Position moyenne en Qualif.,0,Hypercar
 Position moyenne en Qualif.,11.25,GTE
