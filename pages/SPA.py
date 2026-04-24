@@ -20,7 +20,7 @@ CIRCUIT = "Spa-Francorchamps"
 
 
 with st.container(border=True):
-    st.image('GT3.png', width=60)
+    #st.image('GT3.png', width=60)
 
 
     # Filtre statique
