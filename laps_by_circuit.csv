@@ -1,7 +1,7 @@
 Track,Data,Value
 Monza,Nombre de tours,446
 Bahrein,Nombre de tours,360
-Spa-Francorchamps,Nombre de tours,569
+Spa-Francorchamps,Nombre de tours,581
 Algarve,Nombre de tours,134
 Fuji,Nombre de tours,288
 Sebring,Nombre de tours,811
@@ -39,7 +39,7 @@ Paul Ricard,Nombre de victoires,0
 Barcelone,Nombre de victoires,0
 Monza,Nombre de TOP10,9
 Bahrein,Nombre de TOP10,10
-Spa-Francorchamps,Nombre de TOP10,10
+Spa-Francorchamps,Nombre de TOP10,11
 Algarve,Nombre de TOP10,3
 Fuji,Nombre de TOP10,6
 Sebring,Nombre de TOP10,24
@@ -58,7 +58,7 @@ Paul Ricard,Nombre de TOP10,1
 Barcelone,Nombre de TOP10,4
 Monza,Nombre de courses en multi,22
 Bahrein,Nombre de courses en multi,19
-Spa-Francorchamps,Nombre de courses en multi,20
+Spa-Francorchamps,Nombre de courses en multi,21
 Algarve,Nombre de courses en multi,4
 Fuji,Nombre de courses en multi,13
 Sebring,Nombre de courses en multi,37
@@ -115,7 +115,7 @@ Paul Ricard,Nombre de poles,0
 Barcelone,Nombre de poles,0
 Monza,Position moyenne en course,11.68
 Bahrein,Position moyenne en course,11.32
-Spa-Francorchamps,Position moyenne en course,10.30
+Spa-Francorchamps,Position moyenne en course,10.29
 Algarve,Position moyenne en course,8.25
 Fuji,Position moyenne en course,11
 Sebring,Position moyenne en course,9.65
@@ -153,7 +153,7 @@ Paul Ricard,Nombre de TOP5,0
 Barcelone,Nombre de TOP5,4
 Monza,Position moyenne en qualif.,12.05
 Bahrein,Position moyenne en qualif.,9.53
-Spa-Francorchamps,Position moyenne en qualif.,9.70
+Spa-Francorchamps,Position moyenne en qualif.,9.90
 Algarve,Position moyenne en qualif.,11.33
 Fuji,Position moyenne en qualif.,11.50
 Sebring,Position moyenne en qualif.,11.06
