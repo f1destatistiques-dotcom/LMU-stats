@@ -12,7 +12,7 @@ url_lap_by_circuit = "https://raw.githubusercontent.com/f1destatistiques-dotcom/
 df_lap_by_circuit = pd.read_csv(url_lap_by_circuit, encoding="latin-1")
 
 
-TRACK = "Barcelone"
+TRACK = "Spa-Francorchamps"
 
 
 with st.container(border=True):
