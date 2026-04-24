@@ -1,4 +1,23 @@
 Track,Data,Value
+Monza,Nombre de courses en multi,22
+Bahrein,Nombre de courses en multi,19
+Spa-Francorchamps,Nombre de courses en multi,17
+Algarve,Nombre de courses en multi,4
+Fuji,Nombre de courses en multi,13
+Sebring,Nombre de courses en multi,37
+Bahrein (Outer),Nombre de courses en multi,11
+Le Mans,Nombre de courses en multi,4
+Fuji (classic),Nombre de courses en multi,8
+Monza (Grande),Nombre de courses en multi,0
+Bahrein (Paddock),Nombre de courses en multi,0
+Imola,Nombre de courses en multi,7
+Sebring (school),Nombre de courses en multi,0
+Interlagos,Nombre de courses en multi,4
+COTA,Nombre de courses en multi,4
+Silverstone,Nombre de courses en multi,6
+Lusail,Nombre de courses en multi,13
+Paul Ricard,Nombre de courses en multi,1
+Barcelone,Nombre de courses en multi,7
 Monza,Nombre de tours,446
 Bahrein,Nombre de tours,360
 Spa-Francorchamps,Nombre de tours,512
@@ -37,25 +56,25 @@ Silverstone,Nombre de victoires,0
 Lusail,Nombre de victoires,0
 Paul Ricard,Nombre de victoires,0
 Barcelone,Nombre de victoires,0
-Monza,Position moyenne à l'arrivée,11.68
-Bahrein,Position moyenne à l'arrivée,11.32
-Spa-Francorchamps,Position moyenne à l'arrivée,10.53
-Algarve,Position moyenne à l'arrivée,8.25
-Fuji,Position moyenne à l'arrivée,11
-Sebring,Position moyenne à l'arrivée,9.65
-Bahrein (Outer),Position moyenne à l'arrivée,11.64
-Le Mans,Position moyenne à l'arrivée,10.25
-Fuji (classic),Position moyenne à l'arrivée,11.50
-Monza (Grande),Position moyenne à l'arrivée,0
-Bahrein (Paddock),Position moyenne à l'arrivée,0
-Imola,Position moyenne à l'arrivée,11.57
-Sebring (school),Position moyenne à l'arrivée,0
-Interlagos,Position moyenne à l'arrivée,15.50
-COTA,Position moyenne à l'arrivée,6.25
-Silverstone,Position moyenne à l'arrivée,12.67
-Lusail,Position moyenne à l'arrivée,13.38
-Paul Ricard,Position moyenne à l'arrivée,7
-Barcelone,Position moyenne à l'arrivée,9.29
+Monza,Position moyenne en course,11.68
+Bahrein,Position moyenne en course,11.32
+Spa-Francorchamps,Position moyenne en course,10.53
+Algarve,Position moyenne en course,8.25
+Fuji,Position moyenne en course,11
+Sebring,Position moyenne en course,9.65
+Bahrein (Outer),Position moyenne en course,11.64
+Le Mans,Position moyenne en course,10.25
+Fuji (classic),Position moyenne en course,11.50
+Monza (Grande),Position moyenne en course,0
+Bahrein (Paddock),Position moyenne en course,0
+Imola,Position moyenne en course,11.57
+Sebring (school),Position moyenne en course,0
+Interlagos,Position moyenne en course,15.50
+COTA,Position moyenne en course,6.25
+Silverstone,Position moyenne en course,12.67
+Lusail,Position moyenne en course,13.38
+Paul Ricard,Position moyenne en course,7
+Barcelone,Position moyenne en course,9.29
 Monza,Position moyenne en qualif.,12.05
 Bahrein,Position moyenne en qualif.,9.53
 Spa-Francorchamps,Position moyenne en qualif.,9.47
