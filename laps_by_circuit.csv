@@ -1,21 +1,58 @@
-Circuit,Tours
-Autodromo Nazionale Monza,446
-Bahrain International Circuit,360
-Circuit de Spa-Francorchamps,284
-Algarve International Circuit,134
-Fuji Speedway,288
-Sebring International Raceway,811
-Bahrain Outer Circuit,466
-Circuit de la Sarthe,120
-Fuji Speedway Classic,170
-Monza Curva Grande Circuit,5
-Circuit de Spa-Francorchamps Endurance,228
-Bahrain Paddock Circuit,2
-Autodromo Enzo e Dino Ferrari,235
-Sebring School Circuit,4
-AutÃ³dromo JosÃ© Carlos Pace,157
-Circuit of the Americas,130
-Silverstone Grand Prix Circuit - ELMS,161
-Lusail International Circuit,286
-Paul Ricard - ELMS,53
-Circuit de Barcelona,382
+Track,Data,Value
+Monza,Nombre de tours,446
+Bahrein,Nombre de tours,360
+Spa-Francorchamps,Nombre de tours,569
+Algarve,Nombre de tours,134
+Fuji,Nombre de tours,288
+Sebring,Nombre de tours,811
+Bahrein (Outer),Nombre de tours,466
+Le Mans,Nombre de tours,120
+Fuji (classic),Nombre de tours,170
+Monza (Grande),Nombre de tours,5
+Bahrein (Paddock),Nombre de tours,2
+Imola,Nombre de tours,240
+Sebring (school),Nombre de tours,4
+Interlago,Nombre de tours,157
+COTA,Nombre de tours,130
+Silverstone,Nombre de tours,161
+Lusail,Nombre de tours,286
+Paul Ricard,Nombre de tours,53
+Barcelone,Nombre de tours,397
+Monza,Nombre de victoires,0
+Bahrein,Nombre de victoires,0
+Spa-Francorchamps,Nombre de victoires,0
+Algarve,Nombre de victoires,0
+Fuji,Nombre de victoires,0
+Sebring,Nombre de victoires,0
+Bahrein (Outer),Nombre de victoires,0
+Le Mans,Nombre de victoires,0
+Fuji (classic),Nombre de victoires,1
+Monza (Grande),Nombre de victoires,0
+Bahrein (Paddock),Nombre de victoires,0
+Imola,Nombre de victoires,0
+Sebring (school),Nombre de victoires,0
+Interlago,Nombre de victoires,0
+COTA,Nombre de victoires,0
+Silverstone,Nombre de victoires,0
+Lusail,Nombre de victoires,0
+Paul Ricard,Nombre de victoires,0
+Barcelone,Nombre de victoires,0
+Monza,Position moyenne à l'arrivée,11.68
+Bahrein,Position moyenne à l'arrivée,11.32
+Spa-Francorchamps,Position moyenne à l'arrivée,10.30
+Algarve,Position moyenne à l'arrivée,8.25
+Fuji,Position moyenne à l'arrivée,11
+Sebring,Position moyenne à l'arrivée,9.65
+Bahrein (Outer),Position moyenne à l'arrivée,11.64
+Le Mans,Position moyenne à l'arrivée,10.25
+Fuji (classic),Position moyenne à l'arrivée,11.50
+Monza (Grande),Position moyenne à l'arrivée,0
+Bahrein (Paddock),Position moyenne à l'arrivée,0
+Imola,Position moyenne à l'arrivée,11.57
+Sebring (school),Position moyenne à l'arrivée,0
+Interlago,Position moyenne à l'arrivée,15.50
+COTA,Position moyenne à l'arrivée,6.25
+Silverstone,Position moyenne à l'arrivée,12.67
+Lusail,Position moyenne à l'arrivée,13.38
+Paul Ricard,Position moyenne à l'arrivée,7
+Barcelone,Position moyenne à l'arrivée,9.29
