@@ -1,37 +1,30 @@
 import streamlit as st
+import plotly.express as px
+import plotly.graph_objects as go
 
-st.set_page_config(layout="wide") # Permet un affichage en plein écran
+#st.set_page_config(layout="wide") # Permet un affichage en plein écran
 
-st.sidebar.success('Home')
+st.sidebar.success('Homer')
 
 #Pour lancer l'environnement virtual
 # cd virtenv
 # streamlit run main.py
 
-st.title("HOME - VROUM !")
+st.title("LMU RAMCO Stats 🏆")
 
 # PERMET LA LECTURE DU FICHIER CSV STOCKÉ DANS LES DÉPÔTS DE GITHUB (MES PROPRES DÉPOTS)
 import pandas as pd
 url_general_data = "https://raw.githubusercontent.com/f1destatistiques-dotcom/LMU-stats/refs/heads/main/general_data.csv"
-df_general_data = pd.read_csv(url_general_data)
+df_general_data = pd.read_csv(url_general_data, encoding="latin-1")
+
+url_lap_by_circuit = "https://raw.githubusercontent.com/f1destatistiques-dotcom/LMU-stats/refs/heads/main/laps_by_circuit.csv"
+df_lap_by_circuit = pd.read_csv(url_lap_by_circuit, encoding="latin-1")
 
 # AFFICHER TOUT LE TABLEAU CSV
 #st.dataframe(df_general_data)
 
-## AJUSTEMENT DU FORMAT DES CHIFFRES AFFICHÉS (évite les .0 pour chiffres entiers et limite à 2 décimales)
-def format_value(v):
-    try:
-        v = float(v)
-        if v.is_integer():
-            return str(int(v))  # pas de .0
-        else:
-            return f"{v:.2f}"   # 2 décimales
-    except:
-        return str(v)
 
-
-
-# -------------------------------- N'affiche que les data Tours du fichier DATA général + filtrage possible
+# -------------------------------- N'affiche que les data Tours du fichier DATA général + filtrage possible_____________________
 ordre = ["Toutes", "GT3", "GTE", "LMP2", "LMP2_ELMS", "LMP3", "Hypercar"]
 # categories = df_general_data["Category"].dropna().unique()
 # cat_choice = st.selectbox("Choisir une catégorie :", categories)
@@ -56,6 +49,7 @@ icons = {
     "Nombre de poles": "🎯",
     "Position moyenne en course": "🚥",
     "Position moyenne en Qualif.": "🛞",
+    "Nombre de DNF" : "🏴"
 }
 
 #for _, row in filtered.iterrows():
@@ -94,27 +88,47 @@ for i, row in filtered.iterrows():
 
 
 
+# GRAPH DE LA POSITION D'ARRIVÉE DES 20 DERNIÈRES COURSES______________________________________________
+
+st.subheader("Historique des 20 dernières courses (toute catégorie)")
+
+url_last_20_races = "https://raw.githubusercontent.com/f1destatistiques-dotcom/LMU-stats/refs/heads/main/last_20.csv"
+df_last_20_races = pd.read_csv(url_last_20_races)
+
+fig = go.Figure()
+
+fig.add_trace(go.Scatter(
+    x = df_last_20_races["Course"],
+    y = df_last_20_races["Position"],
+    mode="lines+markers",
+    line=dict(color="#83A6D1", width=1),
+    marker=dict(size=5, color="#83A6D1"),
+    fill="tozeroy",              # Remplissage sous la courbe
+    line_shape="spline",         # Courbe arrondie
+    name="Position"
+))
+
+fig.add_hline(
+    y=5,
+    line_width=1,
+    line_dash="dash",
+    line_color="blue",
+    annotation_text="Top 5",
+    annotation_position="right"
+)
+
+fig.add_hline(
+    y=10,
+    line_width=1,
+    line_dash="dash",
+    line_color="orange",
+    annotation_text="Top 10",
+    annotation_position="right"
+)
 
 
+st.plotly_chart(fig, config={"staticPlot": True})
 
-    # label=row["Data"]
-    # value=row["Value"]
-    # icon = icons.get(label, "❓")
-
-    # st.markdown(f"""
-    #         <div style="
-    #             background-color:#EEE6D8;
-    #             padding:10px;
-    #             border-radius:12px;
-    #             text-align:center;
-    #             color:black;
-    #             width:100%;
-    #             margin-bottom:20px;">
-    #             <div style="font-size:40px; margin-bottom:10px;">{icon}</div>
-    #             <div style="font-size:14px; opacity:0.7;">{label}</div>
-    #             <div style="font-size:32px; font-weight:700; margin-top:1px;">{value}</div>
-    #         </div>
-    #     """, unsafe_allow_html=True)
 
 
 
