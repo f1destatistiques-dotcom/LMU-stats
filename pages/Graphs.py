@@ -18,21 +18,67 @@ df_lap_by_circuit = pd.read_csv(url_lap_by_circuit, encoding="latin-1")
 
 # GRAPH DU NOMBRE DE TOURS PAR CIRCUITS______________________________________________
 
-df_sorted = df_lap_by_circuit.sort_values("Value", ascending=False)
+df_filtered = df_lap_by_circuit[df_lap_by_circuit["Data"] == "Nombre de tours"]
+df_sorted = df_filtered.sort_values("Value", ascending=False)
 
 fig = px.bar(
     df_sorted,
     x="Track",
     y="Value",
     text="Value",
-    title="Nombre de tours par circuit (croissant)",
+    #textfont=dict(color="black", size=14),
+    title="Nombre de tours par circuit",
 )
 
 fig.update_layout(height=800)
 #fig.update_traces(marker_pattern_shape="/")
-fig.update_traces(width=0.4)
+fig.update_traces(width=0.6)
 
 st.plotly_chart(fig, use_container_width=True, config={"staticPlot": True})
+
+
+# GRAPH DU NOMBRE DE session PAR CIRCUITS______________________________________________
+
+df_filtered = df_lap_by_circuit[df_lap_by_circuit["Data"] == "Nombre de courses en multi"]
+df_sorted = df_filtered.sort_values("Value", ascending=False)
+
+fig = px.bar(
+    df_sorted,
+    x="Track",
+    y="Value",
+    text="Value",
+    #textfont=dict(color="black", size=14),
+    title="Nombre de sessions par circuit",
+)
+
+fig.update_layout(height=800)
+#fig.update_traces(marker_pattern_shape="/")
+fig.update_traces(width=0.6)
+
+st.plotly_chart(fig, use_container_width=True, config={"staticPlot": True})
+
+
+# GRAPH POSITION MOYENNE À L'ARRIVÉE PAR CIRCUITS______________________________________________
+
+df_filtered = df_lap_by_circuit[(df_lap_by_circuit["Data"] == "Position moyenne en course") & (df_lap_by_circuit["Value"] != 0)]
+df_sorted = df_filtered.sort_values("Value", ascending=True)
+
+fig = px.bar(
+    df_sorted,
+    x="Track",
+    y="Value",
+    text="Value",
+    #textfont=dict(color="black", size=14),
+    title="Position moyenne à l'arrivée",
+)
+
+fig.update_layout(height=800)
+#fig.update_traces(marker_pattern_shape="/")
+fig.update_traces(width=0.6)
+
+st.plotly_chart(fig, use_container_width=True, config={"staticPlot": True})
+
+
 
 
 # GRAPH DE LA POSITION D'ARRIVÉE DES 20 DERNIÈRES COURSES______________________________________________
@@ -49,7 +95,7 @@ fig.add_trace(go.Scatter(
     line=dict(color="#83A6D1", width=1),
     marker=dict(size=5, color="#83A6D1"),
     fill="tozeroy",              # Remplissage sous la courbe
-    line_shape="spline",         # Courbe arrondie
+    line_shape="hvh",         # Courbe arrondie
     name="Position"
 ))
 
@@ -83,23 +129,23 @@ fig.add_hline(
 # ))
 
 
-# ---- Rajout d'une courbe de tendance -------------------
-# x = numéro de course
-x = df_last_20_races["Course"]
-# y = position
-y = df_last_20_races["Position"]
-# Régression linéaire : y = a*x + b
-a, b = np.polyfit(x, y, 1)
-# Valeurs de la tendance
-df_last_20_races["Trend"] = a * x + b
+# # ---- Rajout d'une courbe de tendance -------------------
+# # x = numéro de course
+# x = df_last_20_races["Course"]
+# # y = position
+# y = df_last_20_races["Position"]
+# # Régression linéaire : y = a*x + b
+# a, b = np.polyfit(x, y, 1)
+# # Valeurs de la tendance
+# df_last_20_races["Trend"] = a * x + b
 
-fig.add_trace(go.Scatter(
-    x=df_last_20_races["Course"],
-    y=df_last_20_races["Trend"],
-    mode="lines",
-    line=dict(color="black", width=1, dash="dot"),
-    name="Tendance"
-))
+# fig.add_trace(go.Scatter(
+#     x=df_last_20_races["Course"],
+#     y=df_last_20_races["Trend"],
+#     mode="lines",
+#     line=dict(color="black", width=1, dash="dot"),
+#     name="Tendance"
+# ))
 
 
 
