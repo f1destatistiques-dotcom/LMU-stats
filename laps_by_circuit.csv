@@ -10,7 +10,7 @@ Le Mans,Nombre de tours,120
 Fuji (classic),Nombre de tours,170
 Monza (Grande),Nombre de tours,5
 Bahrein (Paddock),Nombre de tours,2
-Imola,Nombre de tours,275
+Imola,Nombre de tours,298
 Sebring (school),Nombre de tours,4
 Interlagos,Nombre de tours,157
 COTA,Nombre de tours,130
@@ -48,7 +48,7 @@ Le Mans,Nombre de TOP10,3
 Fuji (classic),Nombre de TOP10,3
 Monza (Grande),Nombre de TOP10,0
 Bahrein (Paddock),Nombre de TOP10,0
-Imola,Nombre de TOP10,3
+Imola,Nombre de TOP10,4
 Sebring (school),Nombre de TOP10,0
 Interlagos,Nombre de TOP10,1
 COTA,Nombre de TOP10,3
@@ -67,7 +67,7 @@ Le Mans,Nombre de courses en multi,4
 Fuji (classic),Nombre de courses en multi,8
 Monza (Grande),Nombre de courses en multi,0
 Bahrein (Paddock),Nombre de courses en multi,0
-Imola,Nombre de courses en multi,7
+Imola,Nombre de courses en multi,8
 Sebring (school),Nombre de courses en multi,0
 Interlagos,Nombre de courses en multi,4
 COTA,Nombre de courses en multi,4
@@ -86,7 +86,7 @@ Le Mans,Nombre de podium,0
 Fuji (classic),Nombre de podium,1
 Monza (Grande),Nombre de podium,0
 Bahrein (Paddock),Nombre de podium,0
-Imola,Nombre de podium,2
+Imola,Nombre de podium,3
 Sebring (school),Nombre de podium,0
 Interlagos,Nombre de podium,1
 COTA,Nombre de podium,2
@@ -124,7 +124,7 @@ Le Mans,Position moyenne en course,10.25
 Fuji (classic),Position moyenne en course,11.50
 Monza (Grande),Position moyenne en course,0
 Bahrein (Paddock),Position moyenne en course,0
-Imola,Position moyenne en course,11.57
+Imola,Position moyenne en course,10.50
 Sebring (school),Position moyenne en course,0
 Interlagos,Position moyenne en course,15.50
 COTA,Position moyenne en course,6.25
@@ -143,7 +143,7 @@ Le Mans,Nombre de TOP5,0
 Fuji (classic),Nombre de TOP5,1
 Monza (Grande),Nombre de TOP5,0
 Bahrein (Paddock),Nombre de TOP5,0
-Imola,Nombre de TOP5,3
+Imola,Nombre de TOP5,4
 Sebring (school),Nombre de TOP5,0
 Interlagos,Nombre de TOP5,1
 COTA,Nombre de TOP5,3
@@ -162,7 +162,7 @@ Le Mans,Position moyenne en qualif.,9
 Fuji (classic),Position moyenne en qualif.,9.62
 Monza (Grande),Position moyenne en qualif.,0
 Bahrein (Paddock),Position moyenne en qualif.,0
-Imola,Position moyenne en qualif.,7.71
+Imola,Position moyenne en qualif.,8
 Sebring (school),Position moyenne en qualif.,0
 Interlagos,Position moyenne en qualif.,11.75
 COTA,Position moyenne en qualif.,4
