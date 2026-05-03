@@ -10,7 +10,7 @@ Le Mans,Nombre de tours,120
 Fuji (classic),Nombre de tours,170
 Monza (Grande),Nombre de tours,5
 Bahrein (Paddock),Nombre de tours,2
-Imola,Nombre de tours,298
+Imola,Nombre de tours,322
 Sebring (school),Nombre de tours,4
 Interlagos,Nombre de tours,157
 COTA,Nombre de tours,130
@@ -67,7 +67,7 @@ Le Mans,Nombre de courses en multi,4
 Fuji (classic),Nombre de courses en multi,8
 Monza (Grande),Nombre de courses en multi,0
 Bahrein (Paddock),Nombre de courses en multi,0
-Imola,Nombre de courses en multi,8
+Imola,Nombre de courses en multi,9
 Sebring (school),Nombre de courses en multi,0
 Interlagos,Nombre de courses en multi,4
 COTA,Nombre de courses en multi,4
@@ -124,7 +124,7 @@ Le Mans,Position moyenne en course,10.25
 Fuji (classic),Position moyenne en course,11.50
 Monza (Grande),Position moyenne en course,0
 Bahrein (Paddock),Position moyenne en course,0
-Imola,Position moyenne en course,10.50
+Imola,Position moyenne en course,11.67
 Sebring (school),Position moyenne en course,0
 Interlagos,Position moyenne en course,15.50
 COTA,Position moyenne en course,6.25
@@ -162,7 +162,7 @@ Le Mans,Position moyenne en qualif.,9
 Fuji (classic),Position moyenne en qualif.,9.62
 Monza (Grande),Position moyenne en qualif.,0
 Bahrein (Paddock),Position moyenne en qualif.,0
-Imola,Position moyenne en qualif.,8
+Imola,Position moyenne en qualif.,8.89
 Sebring (school),Position moyenne en qualif.,0
 Interlagos,Position moyenne en qualif.,11.75
 COTA,Position moyenne en qualif.,4
@@ -181,7 +181,7 @@ Le Mans,Nombre de DNF,1
 Fuji (classic),Nombre de DNF,1
 Monza (Grande),Nombre de DNF,0
 Bahrein (Paddock),Nombre de DNF,0
-Imola,Nombre de DNF,4
+Imola,Nombre de DNF,5
 Sebring (school),Nombre de DNF,0
 Interlagos,Nombre de DNF,1
 COTA,Nombre de DNF,1
