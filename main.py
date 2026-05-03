@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 
-st.set_page_config(layout="wide") # Permet un affichage en plein écran
+#st.set_page_config(layout="wide") # Permet un affichage en plein écran
 
 st.sidebar.success('Homer')
 
@@ -104,7 +104,8 @@ fig.add_trace(go.Scatter(
     line=dict(color="#83A6D1", width=1),
     marker=dict(size=5, color="#83A6D1"),
     fill="tozeroy",              # Remplissage sous la courbe
-    line_shape="spline",         # Courbe arrondie
+    #line_shape="spline",         # Courbe arrondie$
+    line_shape="hvh",
     name="Position"
 ))
 
@@ -131,10 +132,34 @@ st.plotly_chart(fig, config={"staticPlot": True})
 
 
 
+# GRAPH  de la somme des 20 dernières courses
 
+st.subheader("Somme de position des 20 dernières courses")
 
+fig = go.Figure()
 
+fig.add_trace(go.Scatter(
+    x = df_last_20_races["Course"],
+    y = df_last_20_races["Somme_20_courses"],
+    mode="lines+markers",
+    line=dict(color="#83A6D1", width=1),
+    marker=dict(size=5, color="#83A6D1"),
+    #fill="tozeroy",              # Remplissage sous la courbe
+    line_shape="spline",         # Courbe arrondie$
+    #line_shape="hvh",              # Course en escalier
+    name="Somme_20_courses"
+))
 
+fig.add_hline(
+    y=200,
+    line_width=1,
+    line_dash="dash",
+    line_color="blue",
+    annotation_text="TOP10",
+    annotation_position="right"
+)
+
+st.plotly_chart(fig)
 
 
 
