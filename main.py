@@ -93,7 +93,7 @@ for i, row in filtered.iterrows():
 st.subheader("Historique des 20 dernières courses (toute catégorie)")
 
 url_last_20_races = "https://raw.githubusercontent.com/f1destatistiques-dotcom/LMU-stats/refs/heads/main/last_20.csv"
-df_last_20_races = pd.read_csv(url_last_20_races)
+df_last_20_races = pd.read_csv(url_last_20_races, encoding="latin-1")
 
 fig = go.Figure()
 
