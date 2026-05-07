@@ -18,6 +18,8 @@ Silverstone,Nombre de tours,161
 Lusail,Nombre de tours,286
 Paul Ricard,Nombre de tours,53
 Barcelone,Nombre de tours,397
+Silverstone Grand Prix Circuit - WEC,Nombre de tours,8
+Paul Ricard - 1A-V2,Nombre de tours,13
 Monza,Nombre de victoires,0
 Bahrein,Nombre de victoires,0
 Spa-Francorchamps,Nombre de victoires,0
@@ -37,6 +39,8 @@ Silverstone,Nombre de victoires,0
 Lusail,Nombre de victoires,0
 Paul Ricard,Nombre de victoires,0
 Barcelone,Nombre de victoires,0
+Silverstone Grand Prix Circuit - WEC,Nombre de victoires,0
+Paul Ricard - 1A-V2,Nombre de victoires,0
 Monza,Nombre de TOP10,9
 Bahrein,Nombre de TOP10,10
 Spa-Francorchamps,Nombre de TOP10,13
@@ -55,7 +59,9 @@ COTA,Nombre de TOP10,3
 Silverstone,Nombre de TOP10,3
 Lusail,Nombre de TOP10,6
 Paul Ricard,Nombre de TOP10,1
-Barcelone,Nombre de TOP10,4
+Barcelone,Nombre de TOP10,3
+Silverstone Grand Prix Circuit - WEC,Nombre de TOP10,0
+Paul Ricard - 1A-V2,Nombre de TOP10,0
 Monza,Nombre de courses en multi,22
 Bahrein,Nombre de courses en multi,19
 Spa-Francorchamps,Nombre de courses en multi,23
@@ -74,7 +80,9 @@ COTA,Nombre de courses en multi,4
 Silverstone,Nombre de courses en multi,6
 Lusail,Nombre de courses en multi,13
 Paul Ricard,Nombre de courses en multi,1
-Barcelone,Nombre de courses en multi,7
+Barcelone,Nombre de courses en multi,6
+Silverstone Grand Prix Circuit - WEC,Nombre de courses en multi,0
+Paul Ricard - 1A-V2,Nombre de courses en multi,0
 Monza,Nombre de podium,1
 Bahrein,Nombre de podium,2
 Spa-Francorchamps,Nombre de podium,2
@@ -93,7 +101,9 @@ COTA,Nombre de podium,2
 Silverstone,Nombre de podium,0
 Lusail,Nombre de podium,0
 Paul Ricard,Nombre de podium,0
-Barcelone,Nombre de podium,4
+Barcelone,Nombre de podium,3
+Silverstone Grand Prix Circuit - WEC,Nombre de podium,0
+Paul Ricard - 1A-V2,Nombre de podium,0
 Monza,Nombre de poles,1
 Bahrein,Nombre de poles,2
 Spa-Francorchamps,Nombre de poles,0
@@ -113,6 +123,8 @@ Silverstone,Nombre de poles,0
 Lusail,Nombre de poles,0
 Paul Ricard,Nombre de poles,0
 Barcelone,Nombre de poles,0
+Silverstone Grand Prix Circuit - WEC,Nombre de poles,0
+Paul Ricard - 1A-V2,Nombre de poles,0
 Monza,Position moyenne en course,11.68
 Bahrein,Position moyenne en course,11.32
 Spa-Francorchamps,Position moyenne en course,9.65
@@ -131,7 +143,9 @@ COTA,Position moyenne en course,6.25
 Silverstone,Position moyenne en course,12.67
 Lusail,Position moyenne en course,13.38
 Paul Ricard,Position moyenne en course,7
-Barcelone,Position moyenne en course,9.29
+Barcelone,Position moyenne en course,10.50
+Silverstone Grand Prix Circuit - WEC,Position moyenne en course,0
+Paul Ricard - 1A-V2,Position moyenne en course,0
 Monza,Nombre de TOP5,3
 Bahrein,Nombre de TOP5,6
 Spa-Francorchamps,Nombre de TOP5,6
@@ -150,7 +164,9 @@ COTA,Nombre de TOP5,3
 Silverstone,Nombre de TOP5,1
 Lusail,Nombre de TOP5,1
 Paul Ricard,Nombre de TOP5,0
-Barcelone,Nombre de TOP5,4
+Barcelone,Nombre de TOP5,3
+Silverstone Grand Prix Circuit - WEC,Nombre de TOP5,0
+Paul Ricard - 1A-V2,Nombre de TOP5,0
 Monza,Position moyenne en qualif.,12.05
 Bahrein,Position moyenne en qualif.,9.53
 Spa-Francorchamps,Position moyenne en qualif.,9.52
@@ -170,6 +186,8 @@ Silverstone,Position moyenne en qualif.,14.33
 Lusail,Position moyenne en qualif.,13.85
 Paul Ricard,Position moyenne en qualif.,4
 Barcelone,Position moyenne en qualif.,9.20
+Silverstone Grand Prix Circuit - WEC,Position moyenne en qualif.,0
+Paul Ricard - 1A-V2,Position moyenne en qualif.,0
 Monza,Nombre de DNF,2
 Bahrein,Nombre de DNF,6
 Spa-Francorchamps,Nombre de DNF,1
@@ -189,3 +207,5 @@ Silverstone,Nombre de DNF,0
 Lusail,Nombre de DNF,3
 Paul Ricard,Nombre de DNF,0
 Barcelone,Nombre de DNF,1
+Silverstone Grand Prix Circuit - WEC,Nombre de DNF,0
+Paul Ricard - 1A-V2,Nombre de DNF,0
