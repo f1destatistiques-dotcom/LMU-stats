@@ -71,7 +71,7 @@ with st.container(border=True):
 # AFFICHAGE POUR LA SECTION GT3___________________________________________________________________________________________________________
 colonnes_a_afficher = ["Voiture", "Record", "Version"]
 CATEGORIE = "GT3"
-CIRCUIT = "Spa-Francorchamps"
+CIRCUIT = TRACK
 
 
 with st.container(border=True):
@@ -87,7 +87,7 @@ with st.container(border=True):
 # AFFICHAGE POUR LA SECTION GTE___________________________________________________________________________________________________________
 
 CATEGORIE = "GTE"
-CIRCUIT = "Spa-Francorchamps"
+CIRCUIT = TRACK
 
 
 with st.container(border=True):
@@ -103,7 +103,7 @@ with st.container(border=True):
 # AFFICHAGE POUR LA SECTION LMP3___________________________________________________________________________________________________________
 
 CATEGORIE = "LMP3"
-CIRCUIT = "Spa-Francorchamps"
+CIRCUIT = TRACK
 
 
 with st.container(border=True):
@@ -119,7 +119,7 @@ with st.container(border=True):
     # AFFICHAGE POUR LA SECTION LMP2___________________________________________________________________________________________________________
 
 CATEGORIE = "LMP2"
-CIRCUIT = "Spa-Francorchamps"
+CIRCUIT = TRACK
 
 
 with st.container(border=True):
@@ -135,7 +135,7 @@ with st.container(border=True):
     # AFFICHAGE POUR LA SECTION LMP2 - ELMS___________________________________________________________________________________________________________
 
 CATEGORIE = "LMP2_ELMS"
-CIRCUIT = "Spa-Francorchamps"
+CIRCUIT = TRACK
 
 
 with st.container(border=True):
@@ -151,7 +151,7 @@ with st.container(border=True):
 # AFFICHAGE POUR LA SECTION HY___________________________________________________________________________________________________________
 
 CATEGORIE = "Hypercar"
-CIRCUIT = "Spa-Francorchamps"
+CIRCUIT = TRACK
 
 
 with st.container(border=True):
