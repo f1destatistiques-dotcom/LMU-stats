@@ -16,7 +16,7 @@ TRACK = "Paul Ricard - 1A-V2"
 
 
 with st.container(border=True):
-    st.image('Track - Paul Ricard.png', width=600, use_container_width=True)
+    st.image('Track - Paul Ricard.jpg', width=600, use_container_width=True)
 
     # st.dataframe(filtered) # Affichage sous forme de tableau
 
