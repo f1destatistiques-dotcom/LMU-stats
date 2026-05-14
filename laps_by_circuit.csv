@@ -1,6 +1,6 @@
 Track,Data,Value
 Monza,Nombre de tours,446
-Bahrein,Nombre de tours,360
+Bahrein,Nombre de tours,379
 Spa-Francorchamps,Nombre de tours,647
 Algarve,Nombre de tours,134
 Fuji,Nombre de tours,288
@@ -44,7 +44,7 @@ Silverstone Grand Prix Circuit - WEC,Nombre de victoires,0
 Paul Ricard - 1A-V2,Nombre de victoires,0
 Silverstone International Circuit,Nombre de victoires,0
 Monza,Nombre de TOP10,9
-Bahrein,Nombre de TOP10,10
+Bahrein,Nombre de TOP10,11
 Spa-Francorchamps,Nombre de TOP10,13
 Algarve,Nombre de TOP10,3
 Fuji,Nombre de TOP10,6
@@ -66,7 +66,7 @@ Silverstone Grand Prix Circuit - WEC,Nombre de TOP10,0
 Paul Ricard - 1A-V2,Nombre de TOP10,0
 Silverstone International Circuit,Nombre de TOP10,0
 Monza,Nombre de courses en multi,22
-Bahrein,Nombre de courses en multi,19
+Bahrein,Nombre de courses en multi,20
 Spa-Francorchamps,Nombre de courses en multi,23
 Algarve,Nombre de courses en multi,4
 Fuji,Nombre de courses en multi,13
@@ -132,7 +132,7 @@ Silverstone Grand Prix Circuit - WEC,Nombre de poles,0
 Paul Ricard - 1A-V2,Nombre de poles,0
 Silverstone International Circuit,Nombre de poles,0
 Monza,Position moyenne en course,11.68
-Bahrein,Position moyenne en course,11.32
+Bahrein,Position moyenne en course,11.20
 Spa-Francorchamps,Position moyenne en course,9.65
 Algarve,Position moyenne en course,8.25
 Fuji,Position moyenne en course,11
@@ -176,7 +176,7 @@ Silverstone Grand Prix Circuit - WEC,Nombre de TOP5,0
 Paul Ricard - 1A-V2,Nombre de TOP5,0
 Silverstone International Circuit,Nombre de TOP5,0
 Monza,Position moyenne en qualif.,12.05
-Bahrein,Position moyenne en qualif.,9.53
+Bahrein,Position moyenne en qualif.,9.50
 Spa-Francorchamps,Position moyenne en qualif.,9.52
 Algarve,Position moyenne en qualif.,11.33
 Fuji,Position moyenne en qualif.,11.50
