@@ -140,7 +140,8 @@ fig = go.Figure()
 
 fig.add_trace(go.Scatter(
     x = df_last_20_races["Course"],
-    y = df_last_20_races["Somme_20_courses"],
+    #y = df_last_20_races["Somme_20_courses"],
+    y = df_last_20_races["Somme_glissante_20"],
     mode="lines+markers",
     line=dict(color="#83A6D1", width=1),
     marker=dict(size=5, color="#83A6D1"),
@@ -151,7 +152,8 @@ fig.add_trace(go.Scatter(
 ))
 
 fig.add_hline(
-    y=200,
+    #y=200,
+    y=10,
     line_width=1,
     line_dash="dash",
     line_color="blue",
