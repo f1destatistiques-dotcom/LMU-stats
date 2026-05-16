@@ -90,7 +90,7 @@ for i, row in filtered.iterrows():
 
 # GRAPH DE LA POSITION D'ARRIVÉE DES 20 DERNIÈRES COURSES______________________________________________
 
-st.subheader("Historique des 20 dernières courses (toute catégorie)")
+st.subheader("Historique des 20 dernières courses (toute catégorie) - Position brute")
 
 url_last_20_races = "https://raw.githubusercontent.com/f1destatistiques-dotcom/LMU-stats/refs/heads/main/last_20.csv"
 df_last_20_races = pd.read_csv(url_last_20_races, encoding="latin-1")
@@ -127,10 +127,38 @@ fig.add_hline(
     annotation_position="right"
 )
 
-
 st.plotly_chart(fig, config={"staticPlot": True})
 
 
+# GRAPH EN BARRE DU SCORE NORMALISE (POSITION / GRILLE)
+
+st.subheader("Historique des 20 dernières courses (toute catégorie) - Position RELATIVE")
+
+fig = go.Figure()
+
+fig.add_trace(go.Scatter(
+    x = df_last_20_races["Course"],
+    y = df_last_20_races["Score_normalise"],
+    mode="lines+markers",
+    line=dict(color="#C5C6C6", width=1),
+    marker=dict(size=5, color="#C5C6C6"),
+    fill="tozeroy",              # Remplissage sous la courbe
+    #line_shape="spline",         # Courbe arrondie$
+    line_shape="hvh",
+    name="Position"
+))
+
+fig.add_hline(
+    y=0.5,
+    line_width=1,
+    line_dash="dash",
+    line_color="blue",
+    annotation_text="Top 5",
+    annotation_position="right"
+)
+
+
+st.plotly_chart(fig, config={"staticPlot": True})
 
 # GRAPH  de la somme des 20 dernières courses
 
