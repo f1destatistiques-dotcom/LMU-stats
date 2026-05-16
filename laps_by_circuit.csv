@@ -17,7 +17,7 @@ COTA,Nombre de tours,130
 Silverstone,Nombre de tours,161
 Lusail,Nombre de tours,286
 Paul Ricard,Nombre de tours,53
-Barcelone,Nombre de tours,397
+Barcelone,Nombre de tours,427
 Silverstone Grand Prix Circuit - WEC,Nombre de tours,8
 Paul Ricard - 1A-V2,Nombre de tours,38
 Silverstone International Circuit,Nombre de tours,7
@@ -83,7 +83,7 @@ COTA,Nombre de courses en multi,4
 Silverstone,Nombre de courses en multi,6
 Lusail,Nombre de courses en multi,13
 Paul Ricard,Nombre de courses en multi,1
-Barcelone,Nombre de courses en multi,6
+Barcelone,Nombre de courses en multi,7
 Silverstone Grand Prix Circuit - WEC,Nombre de courses en multi,0
 Paul Ricard - 1A-V2,Nombre de courses en multi,1
 Silverstone International Circuit,Nombre de courses en multi,0
@@ -149,7 +149,7 @@ COTA,Position moyenne en course,6.25
 Silverstone,Position moyenne en course,12.67
 Lusail,Position moyenne en course,13.38
 Paul Ricard,Position moyenne en course,7
-Barcelone,Position moyenne en course,10.50
+Barcelone,Position moyenne en course,10.86
 Silverstone Grand Prix Circuit - WEC,Position moyenne en course,0
 Paul Ricard - 1A-V2,Position moyenne en course,18
 Silverstone International Circuit,Position moyenne en course,0
@@ -193,7 +193,7 @@ COTA,Position moyenne en qualif.,4
 Silverstone,Position moyenne en qualif.,14.33
 Lusail,Position moyenne en qualif.,13.85
 Paul Ricard,Position moyenne en qualif.,4
-Barcelone,Position moyenne en qualif.,9.20
+Barcelone,Position moyenne en qualif.,11.50
 Silverstone Grand Prix Circuit - WEC,Position moyenne en qualif.,0
 Paul Ricard - 1A-V2,Position moyenne en qualif.,5
 Silverstone International Circuit,Position moyenne en qualif.,0
