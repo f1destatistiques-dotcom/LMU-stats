@@ -69,7 +69,7 @@ for i, row in filtered.iterrows():
     with col:
         st.markdown(f"""
             <div style="
-                background-color:#EEE6D8;
+                background-color:#C5C6C6;
                 padding:10px;
                 border-radius:12px;
                 text-align:center;
@@ -101,8 +101,8 @@ fig.add_trace(go.Scatter(
     x = df_last_20_races["Course"],
     y = df_last_20_races["Position"],
     mode="lines+markers",
-    line=dict(color="#83A6D1", width=1),
-    marker=dict(size=5, color="#83A6D1"),
+    line=dict(color="#C5C6C6", width=1),
+    marker=dict(size=5, color="#C5C6C6"),
     fill="tozeroy",              # Remplissage sous la courbe
     #line_shape="spline",         # Courbe arrondie$
     line_shape="hvh",
@@ -140,11 +140,10 @@ fig = go.Figure()
 
 fig.add_trace(go.Scatter(
     x = df_last_20_races["Course"],
-    #y = df_last_20_races["Somme_20_courses"],
-    y = df_last_20_races["Somme_glissante_20"],
+    y = df_last_20_races["Somme_20_courses"],
     mode="lines+markers",
-    line=dict(color="#83A6D1", width=1),
-    marker=dict(size=5, color="#83A6D1"),
+    line=dict(color="#826D62", width=1),
+    marker=dict(size=5, color="#826D62"),
     #fill="tozeroy",              # Remplissage sous la courbe
     line_shape="spline",         # Courbe arrondie$
     #line_shape="hvh",              # Course en escalier
@@ -152,8 +151,7 @@ fig.add_trace(go.Scatter(
 ))
 
 fig.add_hline(
-    #y=200,
-    y=10,
+    y=200,
     line_width=1,
     line_dash="dash",
     line_color="blue",
@@ -163,6 +161,37 @@ fig.add_hline(
 
 st.plotly_chart(fig)
 
+
+# GRAPH  de la moyenne des 20 dernières courses
+
+st.subheader("Moyenne du score (position / grille) des 20 dernières courses")
+
+fig = go.Figure()
+
+fig.add_trace(go.Scatter(
+    x = df_last_20_races["Course"],
+    #y = df_last_20_races["Somme_20_courses"],
+    y = df_last_20_races["Moyenne_glissante_20"],
+    mode="lines+markers",
+    line=dict(color="#826D62", width=1),
+    marker=dict(size=5, color="#826D62"),
+    #fill="tozeroy",              # Remplissage sous la courbe
+    line_shape="spline",         # Courbe arrondie$
+    #line_shape="hvh",              # Course en escalier
+    name="Somme_20_courses"
+))
+
+fig.add_hline(
+    #y=200,
+    y=0.5,
+    line_width=1,
+    line_dash="dash",
+    line_color="blue",
+    annotation_text="TOP10",
+    annotation_position="right"
+)
+
+st.plotly_chart(fig)
 
 
 
