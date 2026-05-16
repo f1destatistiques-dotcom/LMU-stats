@@ -130,6 +130,37 @@ fig.add_hline(
 st.plotly_chart(fig, config={"staticPlot": True})
 
 
+# GRAPH  de la somme des 20 dernières courses
+
+st.subheader("Somme de position des 20 dernières courses")
+
+fig = go.Figure()
+
+fig.add_trace(go.Scatter(
+    x = df_last_20_races["Course"],
+    y = df_last_20_races["Somme_20_courses"],
+    mode="lines+markers",
+    line=dict(color="#826D62", width=1),
+    marker=dict(size=5, color="#826D62"),
+    #fill="tozeroy",              # Remplissage sous la courbe
+    line_shape="spline",         # Courbe arrondie$
+    #line_shape="hvh",              # Course en escalier
+    name="Somme_20_courses"
+))
+
+fig.add_hline(
+    y=200,
+    line_width=1,
+    line_dash="dash",
+    line_color="blue",
+    annotation_text="TOP10",
+    annotation_position="right"
+)
+
+st.plotly_chart(fig)
+
+
+
 # GRAPH EN BARRE DU SCORE NORMALISE (POSITION / GRILLE)
 
 st.subheader("Historique des 20 dernières courses (toute catégorie) - Position RELATIVE")
@@ -159,35 +190,6 @@ fig.add_hline(
 
 
 st.plotly_chart(fig, config={"staticPlot": True})
-
-# GRAPH  de la somme des 20 dernières courses
-
-st.subheader("Somme de position des 20 dernières courses")
-
-fig = go.Figure()
-
-fig.add_trace(go.Scatter(
-    x = df_last_20_races["Course"],
-    y = df_last_20_races["Somme_20_courses"],
-    mode="lines+markers",
-    line=dict(color="#826D62", width=1),
-    marker=dict(size=5, color="#826D62"),
-    #fill="tozeroy",              # Remplissage sous la courbe
-    line_shape="spline",         # Courbe arrondie$
-    #line_shape="hvh",              # Course en escalier
-    name="Somme_20_courses"
-))
-
-fig.add_hline(
-    y=200,
-    line_width=1,
-    line_dash="dash",
-    line_color="blue",
-    annotation_text="TOP10",
-    annotation_position="right"
-)
-
-st.plotly_chart(fig)
 
 
 # GRAPH  de la moyenne des 20 dernières courses
