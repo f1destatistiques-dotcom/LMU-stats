@@ -1,6 +1,8 @@
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
+from streamlit_echarts import st_echarts
+
 
 #st.set_page_config(layout="wide") # Permet un affichage en plein écran
 
@@ -35,6 +37,8 @@ cat_choice = st.selectbox("Choisir une catégorie :", categories)
 
 
 filtered = df_general_data[df_general_data["Category"] == cat_choice]
+
+
 
 # st.dataframe(filtered) # Affichage sous forme de tableau
 
@@ -200,7 +204,6 @@ fig = go.Figure()
 
 fig.add_trace(go.Scatter(
     x = df_last_20_races["Course"],
-    #y = df_last_20_races["Somme_20_courses"],
     y = df_last_20_races["Moyenne_glissante_20"],
     mode="lines+markers",
     line=dict(color="#826D62", width=1),
@@ -226,6 +229,114 @@ st.plotly_chart(fig)
 
 
 
+# GRAPH  de la moyenne des 20 dernières courses
+
+
+
+# Extraire les colonnes
+x = df_last_20_races["Course"].tolist()
+y = df_last_20_races["Moyenne_glissante_20"].tolist()
+
+st.title("Test ECharts")
+
+options = {
+    "xAxis": {
+        "type": "category",
+        "data": x,
+    },
+    "yAxis": {"type": "value"},
+    "series": [
+        {
+            "data": y,
+            "type": "bar",
+            "showBackground": True,
+            "backgroundStyle": {"color": "rgba(180, 180, 180, 0.2)"},
+        }
+    ],
+}
+st_echarts(options=options, height="500px")
+
+
+
+
+
+
+st.subheader("TEST GRAPH PERSONNALISÉ")
+
+# Extraire les colonnes
+x = df_last_20_races["Course"].tolist()
+y = df_last_20_races["Moyenne_glissante_20"].tolist()
+
+# Options ECharts
+options = {
+    "title": {"text": "Moyenne glissante sur 20 courses"},
+    "tooltip": {"trigger": "axis"},
+    "xAxis": {
+        "type": "category",
+        "data": x,
+        "name": "Course",
+    },
+    "yAxis": {
+        "type": "value",
+        "name": "Moyenne glissante",
+    },
+    "series": [
+        {
+            "data": y,
+            "type": "line",
+            "smooth": True,
+            "lineStyle": {"width": 3, "color": "#E10600"},  # rouge Ferrari
+            "areaStyle": {"opacity": 0.2},
+        }
+    ],
+}
+
+st_echarts(options=options, height="500px")
+
+
+
+
+
+
+
+st.write(df_general_data)
+st.write(df_general_data.columns.tolist())
+
+
+
+
+
+
+
+
+value = float(df_general_data.loc[df_general_data["Category"] == "Toutes", "Value"].iloc[0])
+
+options = {
+    "series": [
+        {
+            "type": "gauge",
+            "progress": {"show": True, "width": 18},
+            "axisLine": {"lineStyle": {"width": 18}},
+            "axisTick": {"show": False},
+            "splitLine": {"length": 15, "lineStyle": {"width": 2, "color": "#999"}},
+            "axisLabel": {"distance": 25, "color": "#999", "fontSize": 20},
+            "anchor": {
+                "show": True,
+                "showAbove": True,
+                "size": 25,
+                "itemStyle": {"borderWidth": 10},
+            },
+            "title": {"show": False},
+            "detail": {
+                "valueAnimation": True,
+                "fontSize": 80,
+                "offsetCenter": [0, "70%"],
+            },
+            "data": [{"value": value}],
+        }
+    ]
+}
+st_echarts(options=options, height="500px")
 
 
 
@@ -237,6 +348,148 @@ st.plotly_chart(fig)
 
 
 
+
+
+
+#_________
+
+# Renommer les colonnes pour simplifier
+df_general_data.columns = ["Stat", "Value", "Category"]
+
+# Nettoyage
+df_general_data["Stat"] = df_general_data["Stat"].str.strip()
+df_general_data["Category"] = df_general_data["Category"].str.strip()
+
+# Exemple : récupérer "Position moyenne en Qualif." pour la catégorie "Toutes"
+stat_name = "Nombre de tours"
+category = "Toutes"
+
+value = float(df_general_data.loc[
+    (df_general_data["Stat"] == stat_name) & (df_general_data["Category"] == category),
+    "Value"
+].iloc[0])
+
+st.write("Valeur récupérée :", value)
+
+
+
+
+
+#_______________
+
+
+
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+
+    options = {
+        "series": [
+            {
+                "type": "gauge",
+                "min": 0,
+                "max": 6000,  # <-- Valeur max fixée ici
+                "progress": {"show": True, "width": 8},
+                "axisLine": {"lineStyle": {"width": 8}},
+                "axisTick": {"show": True},
+                "splitLine": {"length": 5, "lineStyle": {"width": 2, "color": "#999"}},
+                "axisLabel": {"distance": 25, "color": "#999", "fontSize": 10},
+                "anchor": {
+                    "show": True,
+                    "showAbove": True,
+                    "size": 15,
+                    "itemStyle": {"borderWidth": 5},
+                },
+                "title": {"show": False},
+                "detail": {
+                    "valueAnimation": True,
+                    "fontSize": 50,
+                    "offsetCenter": [0, "25%"],
+                },
+                "data": [{"value": value}],
+            }
+        ]
+    }
+
+    st_echarts(options=options, height="500px", key="gauge1")
+
+
+with col2:
+
+    options2 = {
+        "series": [
+            {
+                "type": "gauge",
+                "min": 0,
+                "max": 6000,  # <-- Valeur max fixée ici
+                "progress": {"show": True, "width": 8},
+                "axisLine": {"lineStyle": {"width": 8}},
+                "axisTick": {"show": True},
+                "splitLine": {"length": 5, "lineStyle": {"width": 2, "color": "#999"}},
+                "axisLabel": {"distance": 25, "color": "#999", "fontSize": 10},
+                "anchor": {
+                    "show": True,
+                    "showAbove": True,
+                    "size": 15,
+                    "itemStyle": {"borderWidth": 5},
+                },
+                "title": {"show": False},
+                "detail": {
+                    "valueAnimation": True,
+                    "fontSize": 50,
+                    "offsetCenter": [0, "25%"],
+                },
+                "data": [{"value": value}],
+            }
+        ]
+    }
+
+    st_echarts(options=options2, height="500px", key="gauge2")
+
+
+with col3:
+
+    options3 = {
+        "series": [
+            {
+                "type": "gauge",
+                "min": 0,
+                "max": 10000,  # <-- Valeur max fixée ici
+                "progress": {"show": True, "width": 8, "itemStyle": {"color": "#E10600"}},
+                "axisLine": {"lineStyle": {"width": 8}},
+                "axisTick": {"show": False},
+                "splitLine": {"length": 5, "lineStyle": {"width": 2, "color": "#F27438"}},
+                "axisLabel": {"distance": 15, "color": "#F27438", "fontSize": 10},
+                "anchor": {
+                    "show": True,
+                    "showAbove": True,
+                    "size": 19,
+                    "color": "#F27438",
+                    "itemStyle": {"borderWidth": 5},
+                },
+                "title": {"show": False},
+                "detail": {
+                    "valueAnimation": True,
+                    "fontSize": 35,
+                    "offsetCenter": [0, "30%"],
+                },
+                "data": [{"value": value}],
+            }
+        ]
+    }
+
+    st_echarts(options=options3, height="350px", key="gauge3")
+
+
+
+
+
+
+liquidfill_option = {
+    "series": [{"type": "liquidFill", "data": [0.3]}]
+}
+st_echarts(liquidfill_option)
 
 
 # CHOIX DES ICONES POUR LES TUILES
@@ -322,7 +575,7 @@ st.plotly_chart(fig)
 #         </div>
 #     """, unsafe_allow_html=True)
 
-col1, col2 = st.columns(2)
+
 
 #car_value = df_filtre["Voiture"].iloc[0]
 
