@@ -1,5 +1,5 @@
 Track,Data,Value
-Monza,Nombre de tours,446
+Monza,Nombre de tours,469
 Bahrein,Nombre de tours,379
 Spa-Francorchamps,Nombre de tours,662
 Algarve,Nombre de tours,134
@@ -7,18 +7,18 @@ Fuji,Nombre de tours,288
 Sebring,Nombre de tours,811
 Bahrein (Outer),Nombre de tours,466
 Le Mans,Nombre de tours,120
-Fuji (classic),Nombre de tours,170
+Fuji (classic),Nombre de tours,208
 Monza (Grande),Nombre de tours,5
 Bahrein (Paddock),Nombre de tours,2
-Imola,Nombre de tours,322
+Imola,Nombre de tours,362
 Sebring (school),Nombre de tours,4
 Interlagos,Nombre de tours,157
 COTA,Nombre de tours,130
-Silverstone,Nombre de tours,161
+Silverstone,Nombre de tours,178
 Lusail,Nombre de tours,286
-Paul Ricard,Nombre de tours,53
+Paul Ricard,Nombre de tours,67
 Barcelone,Nombre de tours,427
-Silverstone Grand Prix Circuit - WEC,Nombre de tours,8
+Silverstone Grand Prix Circuit - WEC,Nombre de tours,42
 Paul Ricard - 1A-V2,Nombre de tours,38
 Silverstone International Circuit,Nombre de tours,7
 Monza,Nombre de victoires,0
@@ -54,7 +54,7 @@ Le Mans,Nombre de TOP10,3
 Fuji (classic),Nombre de TOP10,3
 Monza (Grande),Nombre de TOP10,0
 Bahrein (Paddock),Nombre de TOP10,0
-Imola,Nombre de TOP10,4
+Imola,Nombre de TOP10,5
 Sebring (school),Nombre de TOP10,0
 Interlagos,Nombre de TOP10,1
 COTA,Nombre de TOP10,3
@@ -73,14 +73,14 @@ Fuji,Nombre de courses en multi,13
 Sebring,Nombre de courses en multi,37
 Bahrein (Outer),Nombre de courses en multi,11
 Le Mans,Nombre de courses en multi,4
-Fuji (classic),Nombre de courses en multi,8
+Fuji (classic),Nombre de courses en multi,9
 Monza (Grande),Nombre de courses en multi,0
 Bahrein (Paddock),Nombre de courses en multi,0
-Imola,Nombre de courses en multi,9
+Imola,Nombre de courses en multi,10
 Sebring (school),Nombre de courses en multi,0
 Interlagos,Nombre de courses en multi,4
 COTA,Nombre de courses en multi,4
-Silverstone,Nombre de courses en multi,6
+Silverstone,Nombre de courses en multi,7
 Lusail,Nombre de courses en multi,13
 Paul Ricard,Nombre de courses en multi,1
 Barcelone,Nombre de courses en multi,7
@@ -139,14 +139,14 @@ Fuji,Position moyenne en course,11
 Sebring,Position moyenne en course,9.65
 Bahrein (Outer),Position moyenne en course,11.64
 Le Mans,Position moyenne en course,10.25
-Fuji (classic),Position moyenne en course,11.50
+Fuji (classic),Position moyenne en course,11.56
 Monza (Grande),Position moyenne en course,0
 Bahrein (Paddock),Position moyenne en course,0
-Imola,Position moyenne en course,11.67
+Imola,Position moyenne en course,10.90
 Sebring (school),Position moyenne en course,0
 Interlagos,Position moyenne en course,15.50
 COTA,Position moyenne en course,6.25
-Silverstone,Position moyenne en course,12.67
+Silverstone,Position moyenne en course,13.71
 Lusail,Position moyenne en course,13.38
 Paul Ricard,Position moyenne en course,7
 Barcelone,Position moyenne en course,10.86
@@ -164,7 +164,7 @@ Le Mans,Nombre de TOP5,0
 Fuji (classic),Nombre de TOP5,1
 Monza (Grande),Nombre de TOP5,0
 Bahrein (Paddock),Nombre de TOP5,0
-Imola,Nombre de TOP5,4
+Imola,Nombre de TOP5,5
 Sebring (school),Nombre de TOP5,0
 Interlagos,Nombre de TOP5,1
 COTA,Nombre de TOP5,3
@@ -183,14 +183,14 @@ Fuji,Position moyenne en qualif.,11.50
 Sebring,Position moyenne en qualif.,11.06
 Bahrein (Outer),Position moyenne en qualif.,12.45
 Le Mans,Position moyenne en qualif.,9
-Fuji (classic),Position moyenne en qualif.,9.62
+Fuji (classic),Position moyenne en qualif.,10.22
 Monza (Grande),Position moyenne en qualif.,0
 Bahrein (Paddock),Position moyenne en qualif.,0
-Imola,Position moyenne en qualif.,8.89
+Imola,Position moyenne en qualif.,8.60
 Sebring (school),Position moyenne en qualif.,0
 Interlagos,Position moyenne en qualif.,11.75
 COTA,Position moyenne en qualif.,4
-Silverstone,Position moyenne en qualif.,14.33
+Silverstone,Position moyenne en qualif.,13.71
 Lusail,Position moyenne en qualif.,13.85
 Paul Ricard,Position moyenne en qualif.,4
 Barcelone,Position moyenne en qualif.,11.50
@@ -212,7 +212,7 @@ Imola,Nombre de DNF,5
 Sebring (school),Nombre de DNF,0
 Interlagos,Nombre de DNF,1
 COTA,Nombre de DNF,1
-Silverstone,Nombre de DNF,0
+Silverstone,Nombre de DNF,1
 Lusail,Nombre de DNF,3
 Paul Ricard,Nombre de DNF,0
 Barcelone,Nombre de DNF,1
