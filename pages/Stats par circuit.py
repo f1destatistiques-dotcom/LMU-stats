@@ -39,7 +39,7 @@ with st.container(border=True):
         #st.metric(label=row["Data"], value=row["Value"]) # Affichage dans une tuile simple
 
 
-    ordre = ["Algarve", "Bahrein","Bahrein (Outer)","Bahrein (Paddock)", "Barcelone", "COTA","Fuji", "Fuji (classic)", "Imola", "Interlagos","Le Mans","Lusail","Monza","Monza (Grande)", "Paul Ricard","Paul Ricard - 1A-V2","Sebring","Sebring (school)", "Silverstone", "Spa-Francorchamps"]
+    ordre = ["Algarve", "Bahrein","Bahrein (Outer)","Bahrein (Paddock)", "Barcelone", "COTA","Fuji", "Fuji (classic)", "Imola", "Interlagos","Le Mans","Lusail", "Lusail Short Circuit","Monza","Monza (Grande)", "Paul Ricard","Paul Ricard - 1A-V2","Sebring","Sebring (school)", "Silverstone", "Spa-Francorchamps"]
     # categories = df_general_data["Category"].dropna().unique()
     # cat_choice = st.selectbox("Choisir une catégorie :", categories)
 
