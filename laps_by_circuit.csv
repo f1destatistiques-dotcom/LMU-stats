@@ -14,14 +14,14 @@ Imola,Nombre de tours,362
 Sebring (school),Nombre de tours,4
 Interlagos,Nombre de tours,157
 COTA,Nombre de tours,130
-Silverstone,Nombre de tours,178
+Silverstone,Nombre de tours,189
 Lusail,Nombre de tours,297
 Paul Ricard,Nombre de tours,67
-Barcelone,Nombre de tours,427
-Silverstone Grand Prix Circuit - WEC,Nombre de tours,42
+Barcelone,Nombre de tours,489
+Silverstone Grand Prix Circuit - WEC,Nombre de tours,68
 Paul Ricard - 1A-V2,Nombre de tours,38
 Silverstone International Circuit,Nombre de tours,7
-Lusail Short Circuit,Nombre de tours,21
+Lusail Short Circuit,Nombre de tours,76
 Monza,Nombre de victoires,0
 Bahrein,Nombre de victoires,0
 Spa-Francorchamps,Nombre de victoires,0
@@ -83,14 +83,14 @@ Imola,Nombre de courses en multi,10
 Sebring (school),Nombre de courses en multi,0
 Interlagos,Nombre de courses en multi,4
 COTA,Nombre de courses en multi,4
-Silverstone,Nombre de courses en multi,7
+Silverstone,Nombre de courses en multi,8
 Lusail,Nombre de courses en multi,13
 Paul Ricard,Nombre de courses en multi,1
-Barcelone,Nombre de courses en multi,7
+Barcelone,Nombre de courses en multi,9
 Silverstone Grand Prix Circuit - WEC,Nombre de courses en multi,0
 Paul Ricard - 1A-V2,Nombre de courses en multi,1
 Silverstone International Circuit,Nombre de courses en multi,0
-Lusail Short Circuit,Nombre de courses en multi,1
+Lusail Short Circuit,Nombre de courses en multi,3
 Monza,Nombre de podium,1
 Bahrein,Nombre de podium,2
 Spa-Francorchamps,Nombre de podium,2
@@ -152,14 +152,14 @@ Imola,Position moyenne en course,10.90
 Sebring (school),Position moyenne en course,0
 Interlagos,Position moyenne en course,15.50
 COTA,Position moyenne en course,6.25
-Silverstone,Position moyenne en course,13.71
+Silverstone,Position moyenne en course,14
 Lusail,Position moyenne en course,13.38
 Paul Ricard,Position moyenne en course,7
-Barcelone,Position moyenne en course,10.86
+Barcelone,Position moyenne en course,11.67
 Silverstone Grand Prix Circuit - WEC,Position moyenne en course,0
 Paul Ricard - 1A-V2,Position moyenne en course,18
 Silverstone International Circuit,Position moyenne en course,0
-Lusail Short Circuit,Position moyenne en course,25
+Lusail Short Circuit,Position moyenne en course,22
 Monza,Nombre de TOP5,3
 Bahrein,Nombre de TOP5,6
 Spa-Francorchamps,Nombre de TOP5,6
@@ -198,14 +198,14 @@ Imola,Position moyenne en qualif.,8.60
 Sebring (school),Position moyenne en qualif.,0
 Interlagos,Position moyenne en qualif.,11.75
 COTA,Position moyenne en qualif.,4
-Silverstone,Position moyenne en qualif.,13.71
+Silverstone,Position moyenne en qualif.,13.38
 Lusail,Position moyenne en qualif.,13.85
 Paul Ricard,Position moyenne en qualif.,4
-Barcelone,Position moyenne en qualif.,11.50
+Barcelone,Position moyenne en qualif.,9.88
 Silverstone Grand Prix Circuit - WEC,Position moyenne en qualif.,0
 Paul Ricard - 1A-V2,Position moyenne en qualif.,5
 Silverstone International Circuit,Position moyenne en qualif.,0
-Lusail Short Circuit,Position moyenne en qualif.,15
+Lusail Short Circuit,Position moyenne en qualif.,16.67
 Monza,Nombre de DNF,2
 Bahrein,Nombre de DNF,6
 Spa-Francorchamps,Nombre de DNF,1
@@ -221,11 +221,11 @@ Imola,Nombre de DNF,5
 Sebring (school),Nombre de DNF,0
 Interlagos,Nombre de DNF,1
 COTA,Nombre de DNF,1
-Silverstone,Nombre de DNF,1
+Silverstone,Nombre de DNF,2
 Lusail,Nombre de DNF,3
 Paul Ricard,Nombre de DNF,0
-Barcelone,Nombre de DNF,1
+Barcelone,Nombre de DNF,2
 Silverstone Grand Prix Circuit - WEC,Nombre de DNF,0
 Paul Ricard - 1A-V2,Nombre de DNF,1
 Silverstone International Circuit,Nombre de DNF,0
-Lusail Short Circuit,Nombre de DNF,1
+Lusail Short Circuit,Nombre de DNF,2
