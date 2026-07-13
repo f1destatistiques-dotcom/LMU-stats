@@ -60,6 +60,10 @@ position_18h = heure_2/24 * 100
 heure_3 = 21
 position_21h = heure_3/24 * 100
 
+# 23h
+heure_3 = 23
+position_23h = heure_3/24 * 100
+
 
 # __________ Code barre html
 
@@ -79,8 +83,8 @@ bar_day = f"""
 <img src="data:png;base64,{avion_base64}"
   style="
     position: absolute;
-    top: 5%;
-    left: {pct_day}%;
+    top: 4.5%;
+    left: {pct_day - 0.8}%;
     transform: translate(-50%, -50%);
     height: 30px;
     pointer-events: none;
@@ -90,9 +94,9 @@ bar_day = f"""
 <!-- 8h -->
   <div style="
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: {position_08h}%;
-    transform: translate(-50%, -50%);
+    transform: translate(0%, 0%);
     color: black;
     font-weight: normal;
     font-size: 14px;
@@ -104,9 +108,9 @@ bar_day = f"""
 <!-- 18h -->
   <div style="
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: {position_18h}%;
-    transform: translate(-50%, -50%);
+    transform: translate(0%, 0%);
     color: black;
     font-weight: normal;
     font-size: 14px;
@@ -118,15 +122,28 @@ bar_day = f"""
 <!-- 21h -->
   <div style="
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: {position_21h}%;
-    transform: translate(-50%, -50%);
+    transform: translate(0%, 0%);
     color: black;
     font-weight: normal;
     font-size: 14px;
     pointer-events: none;
   ">
     {"| 21h"}
+  </div>
+
+  <!-- 23h -->
+  <div style="
+    position: absolute;
+    top: 10%;
+    left: {position_23h}%;
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+    pointer-events: none;
+  ">
+    {"| 23h"}
   </div>
 
 <p style="color:#b141ffff;">{pct_day:.3f}% du jour</p>
