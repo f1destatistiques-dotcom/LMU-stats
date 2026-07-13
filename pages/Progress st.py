@@ -1,4 +1,5 @@
 import streamlit as st
+from zoneinfo import ZoneInfo
 import datetime
 import base64
 from streamlit_autorefresh import st_autorefresh
@@ -21,6 +22,7 @@ def load_image_base64(path):
 avion_base64 = load_image_base64("rect19.png")
 
 # ____________ Heure actuelle
+now = datetime.datetime.now(ZoneInfo("Europe/Paris"))
 heure_actuelle = now.strftime("%H:%M")
 
 # ---------------------------------------------------------
