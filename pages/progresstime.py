@@ -5,7 +5,7 @@ st.set_page_config(layout="wide")
 st.title("Progression temporelle (fluide)")
 
 # Dates en dur
-start = datetime.datetime(2026, 7, 13, 19, 0, 0)
+start = datetime.datetime(2026, 7, 13, 18, 0, 0)
 end   = datetime.datetime(2026, 7, 13, 22, 0, 0)
 
 # Calcul du pourcentage
