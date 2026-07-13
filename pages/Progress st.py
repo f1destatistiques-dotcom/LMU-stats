@@ -1,5 +1,4 @@
 import streamlit as st
-from zoneinfo import ZoneInfo
 import datetime
 import base64
 from streamlit_autorefresh import st_autorefresh
@@ -9,7 +8,11 @@ from streamlit_autorefresh import st_autorefresh
 st_autorefresh(interval=5000, key="progress_refresh")
 
 st.set_page_config(layout="wide")
+#now = datetime.datetime.now()
+from zoneinfo import ZoneInfo
+TZ = ZoneInfo("Europe/Paris")
 now = datetime.datetime.now(ZoneInfo("Europe/Paris"))
+
 
 st.title("Progressbars multiples (version stable et fluide)")
 
@@ -38,7 +41,7 @@ mois_nom = mois[now.month - 1]
 
 date_affichee = f"{jour_nom} {now.day} {mois_nom} {now.year}"
 
-start_day = datetime.datetime(now.year, now.month, now.day, 0, 0, 0)
+start_day = datetime.datetime(now.year, now.month, now.day, 0, 0, 0, tzinfo=TZ)
 end_day   = start_day + datetime.timedelta(days=1)
 
 pct_day = ((now - start_day).total_seconds() / (end_day - start_day).total_seconds()) * 100
@@ -146,7 +149,7 @@ st.markdown(bar_day, unsafe_allow_html=True)
 # 2) BARRE HEBDOMADAIRE (statique)
 # ---------------------------------------------------------
 start_week = now - datetime.timedelta(days=now.weekday())  # lundi
-start_week = datetime.datetime(start_week.year, start_week.month, start_week.day)
+start_week = datetime.datetime(start_week.year, start_week.month, start_week.day, tzinfo=TZ)
 end_week   = start_week + datetime.timedelta(days=7)
 
 pct_week = ((now - start_week).total_seconds() / (end_week - start_week).total_seconds()) * 100
@@ -171,11 +174,11 @@ st.markdown(bar_week, unsafe_allow_html=True)
 # ---------------------------------------------------------
 # 3) BARRE MENSUELLE (fluide + avion + zones weekend)
 # ---------------------------------------------------------
-start_month = datetime.datetime(now.year, now.month, 1)
+start_month = datetime.datetime(now.year, now.month, 1, tzinfo=TZ)
 if now.month == 12:
-    end_month = datetime.datetime(now.year + 1, 1, 1)
+    end_month = datetime.datetime(now.year + 1, 1, 1, tzinfo=TZ)
 else:
-    end_month = datetime.datetime(now.year, now.month + 1, 1)
+    end_month = datetime.datetime(now.year, now.month + 1, 1, tzinfo=TZ)
 
 pct_month = ((now - start_month).total_seconds() / (end_month - start_month).total_seconds()) * 100
 
