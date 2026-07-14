@@ -7,7 +7,7 @@ import time
 
 
 # Rafraîchit toutes les 5 secondes (5000 ms)
-st_autorefresh(interval=5000, key="progress_refresh")
+st_autorefresh(interval=30000, key="progress_refresh")
 
 st.set_page_config(layout="wide")
 #now = datetime.datetime.now()
