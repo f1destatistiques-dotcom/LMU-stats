@@ -14,6 +14,21 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<style>
+/* Empêche les éléments absolus de casser la grille */
+[data-testid="stAppViewContainer"] {
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
+}
+
+/* Empêche les conteneurs HTML de créer des zones fantômes */
+.block-container {
+    overflow: visible !important;
+    padding-top: 0 !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
 for i in range(7):
     with cols[i]:
