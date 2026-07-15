@@ -90,7 +90,7 @@ for i in range(7):
             f"""
             <div style="text-align:center;">
                 <img src="{img}" style="width:70px; margin:0; padding:0;">
-                <div style="font-size:22px; margin-top:4px;">{jour}</div>
+                <div style="font-size:22px; margin-top:4px;">{jour_nom}</div>
                 <div style="font-size:22px; color:#ff4b4b; font-weight:bold;">
                     {tmax[i]}°C
                 </div>
