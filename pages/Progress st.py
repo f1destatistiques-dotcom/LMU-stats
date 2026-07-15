@@ -639,7 +639,7 @@ st.markdown(
 # _____ Affiche le contenu de la barre (issu du code html plus haut)
 st.markdown(bar_day, unsafe_allow_html=True)
 
-st.text("\n\n ---------- \n")
+#st.text(" ----------")
 
 
 
@@ -734,7 +734,7 @@ bar_1 = f"""
 
 
 # ____ Titre au format html
-titre = f"Barre personelle | {pct_barre1:.1f}%"
+titre = f"Barre personelle | {pct_barre1:.2f}%"
 st.markdown(
     f"<h3 style='font-size:20px; font-weight:600; margin-bottom:4px;'>{titre}</h3>",
     unsafe_allow_html=True
