@@ -68,15 +68,6 @@ cols = st.columns(7)
 
 jours_fr = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 
-for i in range(7):
-    with cols[i]:
-        img = weather_images.get(codes[i])
-
-        date_obj = datetime.datetime.strptime(jours[i], "%Y-%m-%d")
-        jour = jours_fr[date_obj.weekday()]
-
-        st.markdown(...)
-
 # --- Affichage météo actuelle ---
 st.markdown(
     f"""
@@ -92,21 +83,12 @@ st.markdown(
 
 st.write("---")
 
-# --- Prévisions 7 jours ---
-jours = data["daily"]["time"]
-codes = data["daily"]["weathercode"]
-tmax = data["daily"]["temperature_2m_max"]
-tmin = data["daily"]["temperature_2m_min"]
-
-cols = st.columns(7)
-
 for i in range(7):
     with cols[i]:
         img = weather_images.get(codes[i])
 
-        # --- Convertir la date en jour de la semaine ---
         date_obj = datetime.datetime.strptime(jours[i], "%Y-%m-%d")
-        jour = date_obj.strftime("%A").capitalize()  # Lundi, Mardi, ...
+        jour = jours_fr[date_obj.weekday()]
 
         st.markdown(
             f"""
@@ -122,7 +104,9 @@ for i in range(7):
             </div>
             """,
             unsafe_allow_html=True
-        )
+
+
+
 
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------------
