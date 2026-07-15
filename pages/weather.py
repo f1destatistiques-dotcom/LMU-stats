@@ -4,8 +4,6 @@ import pandas as pd
 import datetime
 import locale
 import time
-import datetime
-
 
 # Permet de gérer la marge avec le top de la page
 st.markdown("""
@@ -17,9 +15,12 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
+# Mettre la locale française pour les noms de jours
+jours_fr = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+
 # --- Coordonnées ---
-lat = 48.839
-lon = 2.702
+lat = 45.200
+lon = 1.603
 
 # --- API Open-Meteo ---
 url = (
@@ -31,11 +32,6 @@ url = (
 )
 
 data = requests.get(url).json()
-
-
-
-
-
 
 # --- Images météo ---
 weather_images = {
@@ -59,15 +55,6 @@ current_temp = current["temperature"]
 
 st.title("🌤️ Météo actuelle & prévisions 7 jours")
 
-jours = data["daily"]["time"]
-codes = data["daily"]["weathercode"]
-tmax = data["daily"]["temperature_2m_max"]
-tmin = data["daily"]["temperature_2m_min"]
-
-cols = st.columns(7)
-
-jours_fr = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
-
 # --- Affichage météo actuelle ---
 st.markdown(
     f"""
@@ -83,12 +70,21 @@ st.markdown(
 
 st.write("---")
 
+# --- Prévisions 7 jours ---
+jours = data["daily"]["time"]
+codes = data["daily"]["weathercode"]
+tmax = data["daily"]["temperature_2m_max"]
+tmin = data["daily"]["temperature_2m_min"]
+
+cols = st.columns(7)
+
 for i in range(7):
     with cols[i]:
         img = weather_images.get(codes[i])
 
+        # --- Convertir la date en jour de la semaine ---
         date_obj = datetime.datetime.strptime(jours[i], "%Y-%m-%d")
-        jour = jours_fr[date_obj.weekday()]
+        jour_nom = jours_fr[date_obj.weekday()].
 
         st.markdown(
             f"""
@@ -104,9 +100,7 @@ for i in range(7):
             </div>
             """,
             unsafe_allow_html=True
-
-
-
+        )
 
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -115,9 +109,9 @@ for i in range(7):
 
 
 
-time.sleep(15)  # délai en secondes
+time.sleep(5)  # délai en secondes
 
-st.switch_page("pages/Progress st.py")
+#st.switch_page("pages/Timeline.py")
 
 
 # __________________ Courbes
