@@ -17,36 +17,21 @@ st.markdown("""
 
 import datetime
 
-jours_fr = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+jours = data["daily"]["time"]
+codes = data["daily"]["weathercode"]
+tmax = data["daily"]["temperature_2m_max"]
+tmin = data["daily"]["temperature_2m_min"]
 
-for i in range(7):
-    date_obj = datetime.datetime.strptime(jours[i], "%Y-%m-%d")
-    # weekday() : 0 = lundi, 6 = dimanche
-    jour_nom = jours_fr[date_obj.weekday()]
-
+cols = st.columns(7)
 
 for i in range(7):
     with cols[i]:
         img = weather_images.get(codes[i])
 
         date_obj = datetime.datetime.strptime(jours[i], "%Y-%m-%d")
-        jour_nom = jours_fr[date_obj.weekday()]
+        jour = date_obj.strftime("%A").capitalize()
 
-        st.markdown(
-            f"""
-            <div style="text-align:center;">
-                <img src="{img}" style="width:70px; margin:0; padding:0;">
-                <div style="font-size:16px; margin-top:4px;">{jour_nom}</div>
-                <div style="font-size:22px; color:#ff4b4b; font-weight:bold;">
-                    {tmax[i]}°C
-                </div>
-                <div style="font-size:16px; color:#4b9cff; font-weight:bold;">
-                    {tmin[i]}°C
-                </div>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
+        st.markdown(...)
 
 
 # --- Coordonnées ---
