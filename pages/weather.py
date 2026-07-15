@@ -19,8 +19,8 @@ st.markdown("""
 jours_fr = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 
 # --- Coordonnées ---
-lat = 45.200
-lon = 1.603
+lat = 48.866
+lon = 2.33
 
 # --- API Open-Meteo ---
 url = (
