@@ -109,9 +109,9 @@ for i in range(7):
 
 
 
-time.sleep(5)  # délai en secondes
+time.sleep(15)  # délai en secondes
 
-#st.switch_page("pages/Timeline.py")
+st.switch_page("pages/Timeline.py")
 
 
 # __________________ Courbes
