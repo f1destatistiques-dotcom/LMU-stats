@@ -5,8 +5,19 @@ from streamlit_autorefresh import st_autorefresh
 import calendar
 import time
 
+# Permet de supprimer les marges supérieures (la valeur 0rem permet d'ajuster)
+st.markdown("""
+<style>
+.block-container {
+    padding-top: 0rem !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
+
 # Rafraîchit toutes les 5 secondes (5000 ms)
-st_autorefresh(interval=30000, key="progress_refresh")
+#st_autorefresh(interval=30000, key="progress_refresh")
 
 st.set_page_config(layout="wide")
 #now = datetime.datetime.now()
@@ -14,6 +25,8 @@ from zoneinfo import ZoneInfo
 TZ = ZoneInfo("Europe/Paris")
 now = datetime.datetime.now(ZoneInfo("Europe/Paris"))
 
+
+st.title("Progress Time")
 
 # ____________ Chargement image en base 64
 
@@ -168,7 +181,7 @@ style="
 # ____ Titre au format html
 
 st.markdown(
-    f"<h3 style='font-size:20px; font-weight:600; margin-bottom:4px;'>{anne_actuelle}</h3>",
+    f"<h3 style='font-size:20px; font-weight:600; margin-bottom:0px;'>{anne_actuelle}</h3>",
     unsafe_allow_html=True
 )
 
@@ -749,6 +762,10 @@ st.markdown(bar_1, unsafe_allow_html=True)
 
 
 
-time.sleep(5)  # délai en secondes
+time.sleep(15)  # délai en secondes
 
-#st.switch_page("pages/2 - Graphs.py")
+st.switch_page("pages/weather.py")
+
+
+
+
