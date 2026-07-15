@@ -5,7 +5,7 @@ import datetime
 import locale
 import time
 
-
+# Permet de gérer la marge avec le top de la page
 st.markdown("""
 <style>
 .block-container {
@@ -14,31 +14,9 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-cols = st.columns(7)
 
-for i in range(7):
-    with cols[i]:
-        img = weather_images.get(codes[i])
-
-        date_obj = datetime.datetime.strptime(jours[i], "%Y-%m-%d")
-        jour_nom = jours_fr[date_obj.weekday()]
-
-        st.markdown(
-            f"""
-            <div style="text-align:center;">
-                <img src="{img}" style="width:70px; margin:0; padding:0;">
-                <div style="font-size:16px; margin-top:4px;">{jour_nom}</div>
-                <div style="font-size:22px; color:#ff4b4b; font-weight:bold;">
-                    {tmax[i]}°C
-                </div>
-                <div style="font-size:16px; color:#4b9cff; font-weight:bold;">
-                    {tmin[i]}°C
-                </div>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-
+# Mettre la locale française pour les noms de jours
+locale.setlocale(locale.LC_TIME, "fr_FR.UTF-8")
 
 # --- Coordonnées ---
 lat = 48.839
@@ -98,7 +76,7 @@ codes = data["daily"]["weathercode"]
 tmax = data["daily"]["temperature_2m_max"]
 tmin = data["daily"]["temperature_2m_min"]
 
-
+cols = st.columns(7)
 
 for i in range(7):
     with cols[i]:
