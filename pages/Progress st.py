@@ -5,14 +5,6 @@ from streamlit_autorefresh import st_autorefresh
 import calendar
 import time
 
-st.markdown("""
-<style>
-[data-testid="stAppViewContainer"] {
-    background-color: #e5e7e6;
-}
-</style>
-""", unsafe_allow_html=True)
-
 # Rafraîchit toutes les 5 secondes (5000 ms)
 st_autorefresh(interval=30000, key="progress_refresh")
 
