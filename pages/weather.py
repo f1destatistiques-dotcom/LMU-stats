@@ -20,7 +20,7 @@ import datetime
 jours_fr = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 
 for i in range(7):
-    date_obj = datetime.datetime.strptime(jours[i], "%Y-%m-%d")
+    date_obj = datetime.datetime.strptime(jours_fr[i], "%Y-%m-%d")
     # weekday() : 0 = lundi, 6 = dimanche
     jour_nom = jours_fr[date_obj.weekday()]
 
@@ -29,7 +29,7 @@ for i in range(7):
     with cols[i]:
         img = weather_images.get(codes[i])
 
-        date_obj = datetime.datetime.strptime(jours[i], "%Y-%m-%d")
+        date_obj = datetime.datetime.strptime(jours_fr[i], "%Y-%m-%d")
         jour_nom = jours_fr[date_obj.weekday()]
 
         st.markdown(
