@@ -4,6 +4,8 @@ import pandas as pd
 import datetime
 import locale
 import time
+import datetime
+
 
 # Permet de gérer la marge avec le top de la page
 st.markdown("""
@@ -15,7 +17,21 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-import datetime
+# --- Coordonnées ---
+lat = 48.839
+lon = 2.702
+
+# --- API Open-Meteo ---
+url = (
+    "https://api.open-meteo.com/v1/forecast?"
+    f"latitude={lat}&longitude={lon}"
+    "&current_weather=true"
+    "&daily=weathercode,temperature_2m_max,temperature_2m_min"
+    "&timezone=Europe/Paris"
+)
+
+data = requests.get(url).json()
+
 
 jours = data["daily"]["time"]
 codes = data["daily"]["weathercode"]
@@ -34,20 +50,6 @@ for i in range(7):
         st.markdown(...)
 
 
-# --- Coordonnées ---
-lat = 48.839
-lon = 2.702
-
-# --- API Open-Meteo ---
-url = (
-    "https://api.open-meteo.com/v1/forecast?"
-    f"latitude={lat}&longitude={lon}"
-    "&current_weather=true"
-    "&daily=weathercode,temperature_2m_max,temperature_2m_min"
-    "&timezone=Europe/Paris"
-)
-
-data = requests.get(url).json()
 
 # --- Images météo ---
 weather_images = {
