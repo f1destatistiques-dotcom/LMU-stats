@@ -66,12 +66,14 @@ tmin = data["daily"]["temperature_2m_min"]
 
 cols = st.columns(7)
 
+jours_fr = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+
 for i in range(7):
     with cols[i]:
         img = weather_images.get(codes[i])
 
         date_obj = datetime.datetime.strptime(jours[i], "%Y-%m-%d")
-        jour = date_obj.strftime("%A").capitalize()
+        jour = jours_fr[date_obj.weekday()]
 
         st.markdown(...)
 
