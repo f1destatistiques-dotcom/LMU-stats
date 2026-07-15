@@ -84,7 +84,7 @@ for i in range(7):
 
         # --- Convertir la date en jour de la semaine ---
         date_obj = datetime.datetime.strptime(jours[i], "%Y-%m-%d")
-        jour_nom = jours_fr[date_obj.weekday()].
+        jour_nom = jours_fr[date_obj.weekday()]
 
         st.markdown(
             f"""
