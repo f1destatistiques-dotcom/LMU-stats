@@ -33,21 +33,7 @@ url = (
 data = requests.get(url).json()
 
 
-jours = data["daily"]["time"]
-codes = data["daily"]["weathercode"]
-tmax = data["daily"]["temperature_2m_max"]
-tmin = data["daily"]["temperature_2m_min"]
 
-cols = st.columns(7)
-
-for i in range(7):
-    with cols[i]:
-        img = weather_images.get(codes[i])
-
-        date_obj = datetime.datetime.strptime(jours[i], "%Y-%m-%d")
-        jour = date_obj.strftime("%A").capitalize()
-
-        st.markdown(...)
 
 
 
@@ -72,6 +58,22 @@ current_icon = weather_images.get(current["weathercode"])
 current_temp = current["temperature"]
 
 st.title("🌤️ Météo actuelle & prévisions 7 jours")
+
+jours = data["daily"]["time"]
+codes = data["daily"]["weathercode"]
+tmax = data["daily"]["temperature_2m_max"]
+tmin = data["daily"]["temperature_2m_min"]
+
+cols = st.columns(7)
+
+for i in range(7):
+    with cols[i]:
+        img = weather_images.get(codes[i])
+
+        date_obj = datetime.datetime.strptime(jours[i], "%Y-%m-%d")
+        jour = date_obj.strftime("%A").capitalize()
+
+        st.markdown(...)
 
 # --- Affichage météo actuelle ---
 st.markdown(
