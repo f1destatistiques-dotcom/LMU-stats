@@ -17,7 +17,7 @@ st.markdown("""
 
 
 # Rafraîchit toutes les 5 secondes (5000 ms)
-#st_autorefresh(interval=30000, key="progress_refresh")
+st_autorefresh(interval=30000, key="progress_refresh")
 
 st.set_page_config(layout="wide")
 #now = datetime.datetime.now()
@@ -762,9 +762,9 @@ st.markdown(bar_1, unsafe_allow_html=True)
 
 
 
-time.sleep(15)  # délai en secondes
+#time.sleep(15)  # délai en secondes
 
-st.switch_page("pages/weather.py")
+#st.switch_page("pages/weather.py")
 
 
 
