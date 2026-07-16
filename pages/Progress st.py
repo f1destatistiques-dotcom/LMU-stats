@@ -9,7 +9,7 @@ import time
 st.markdown("""
 <style>
 .block-container {
-    padding-top: 2rem !important;
+    padding-top: 1rem !important;
 }
 </style>
 """, unsafe_allow_html=True)
