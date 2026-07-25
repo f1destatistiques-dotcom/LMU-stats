@@ -1,11 +1,11 @@
 Data,Value,Category
-Nombre de tours,3910,GT3
+Nombre de tours,3944,GT3
 Nombre de tours,53,Hypercar
 Nombre de tours,600,LMP2
 Nombre de tours,419,GTE
-Nombre de tours,387,LMP2_ELMS
+Nombre de tours,418,LMP2_ELMS
 Nombre de tours,344,LMP3
-Nombre de tours,5713,Toutes
+Nombre de tours,5778,Toutes
 Nombre de victoires / Ratio,1,GT3
 Nombre de victoires / Ratio,0,Hypercar
 Nombre de victoires / Ratio,0,GTE
@@ -20,13 +20,13 @@ Nombre de TOP10 / Ratio,15,LMP2
 Nombre de TOP10 / Ratio,6,LMP2_ELMS
 Nombre de TOP10 / Ratio,9,LMP3
 Nombre de TOP10 / Ratio,105 / 0.50,Toutes
-Nombre de courses en multi,140,GT3
+Nombre de courses en multi,141,GT3
 Nombre de courses en multi,0,Hypercar
 Nombre de courses en multi,18,GTE
 Nombre de courses en multi,27,LMP2
-Nombre de courses en multi,12,LMP2_ELMS
+Nombre de courses en multi,13,LMP2_ELMS
 Nombre de courses en multi,13,LMP3
-Nombre de courses en multi,210,Toutes
+Nombre de courses en multi,212,Toutes
 Nombre de podiums / Ratio,13,GT3
 Nombre de podiums / Ratio,0,Hypercar
 Nombre de podiums / Ratio,2,GTE
@@ -41,11 +41,11 @@ Nombre de poles,1,LMP2
 Nombre de poles,1,LMP2_ELMS
 Nombre de poles,1,LMP3
 Nombre de poles,8,Toutes
-Position moyenne en course,11.56,GT3
+Position moyenne en course,11.55,GT3
 Position moyenne en course,0,Hypercar
 Position moyenne en course,11,GTE
 Position moyenne en course,10.74,LMP2
-Position moyenne en course,9.92,LMP2_ELMS
+Position moyenne en course,10,LMP2_ELMS
 Position moyenne en course,8.15,LMP3
 Position moyenne en course,11.10,Toutes
 Nombre de TOP 5 / Ratio,28,GT3
@@ -55,17 +55,17 @@ Nombre de TOP 5 / Ratio,8,LMP2
 Nombre de TOP 5 / Ratio,2,LMP2_ELMS
 Nombre de TOP 5 / Ratio,5,LMP3
 Nombre de TOP 5 / Ratio,46 / 0.22,Toutes
-Position moyenne en Qualif.,11.12,GT3
+Position moyenne en Qualif.,11.06,GT3
 Position moyenne en Qualif.,0,Hypercar
 Position moyenne en Qualif.,11.25,GTE
 Position moyenne en Qualif.,11.15,LMP2
-Position moyenne en Qualif.,10.58,LMP2_ELMS
+Position moyenne en Qualif.,11,LMP2_ELMS
 Position moyenne en Qualif.,5.92,LMP3
-Position moyenne en Qualif.,10.63,Toutes
-Nombre de DNF,27,GT3
+Position moyenne en Qualif.,10.61,Toutes
+Nombre de DNF,28,GT3
 Nombre de DNF,0,Hypercar
 Nombre de DNF,2,GTE
 Nombre de DNF,9,LMP2
 Nombre de DNF,2,LMP2_ELMS
 Nombre de DNF,4,LMP3
-Nombre de DNF,44,Toutes
+Nombre de DNF,45,Toutes

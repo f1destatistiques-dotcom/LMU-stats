@@ -7,7 +7,7 @@ Fuji,Nombre de tours,288
 Sebring,Nombre de tours,872
 Bahrein (Outer),Nombre de tours,466
 Le Mans,Nombre de tours,120
-Fuji (classic),Nombre de tours,208
+Fuji (classic),Nombre de tours,239
 Monza (Grande),Nombre de tours,5
 Bahrein (Paddock),Nombre de tours,2
 Imola,Nombre de tours,399
@@ -15,9 +15,9 @@ Sebring (school),Nombre de tours,4
 Interlagos,Nombre de tours,157
 COTA,Nombre de tours,130
 Silverstone,Nombre de tours,189
-Lusail,Nombre de tours,297
+Lusail,Nombre de tours,309
 Paul Ricard,Nombre de tours,67
-Barcelone,Nombre de tours,603
+Barcelone,Nombre de tours,625
 Silverstone Grand Prix Circuit - WEC,Nombre de tours,68
 Paul Ricard - 1A-V2,Nombre de tours,38
 Silverstone International Circuit,Nombre de tours,7
@@ -76,7 +76,7 @@ Fuji,Nombre de courses en multi,13
 Sebring,Nombre de courses en multi,42
 Bahrein (Outer),Nombre de courses en multi,11
 Le Mans,Nombre de courses en multi,4
-Fuji (classic),Nombre de courses en multi,9
+Fuji (classic),Nombre de courses en multi,10
 Monza (Grande),Nombre de courses en multi,0
 Bahrein (Paddock),Nombre de courses en multi,0
 Imola,Nombre de courses en multi,11
@@ -84,7 +84,7 @@ Sebring (school),Nombre de courses en multi,0
 Interlagos,Nombre de courses en multi,4
 COTA,Nombre de courses en multi,4
 Silverstone,Nombre de courses en multi,8
-Lusail,Nombre de courses en multi,13
+Lusail,Nombre de courses en multi,14
 Paul Ricard,Nombre de courses en multi,1
 Barcelone,Nombre de courses en multi,14
 Silverstone Grand Prix Circuit - WEC,Nombre de courses en multi,0
@@ -145,7 +145,7 @@ Fuji,Position moyenne en course,11
 Sebring,Position moyenne en course,9.86
 Bahrein (Outer),Position moyenne en course,11.64
 Le Mans,Position moyenne en course,10.25
-Fuji (classic),Position moyenne en course,11.56
+Fuji (classic),Position moyenne en course,11.50
 Monza (Grande),Position moyenne en course,0
 Bahrein (Paddock),Position moyenne en course,0
 Imola,Position moyenne en course,10.91
@@ -153,7 +153,7 @@ Sebring (school),Position moyenne en course,0
 Interlagos,Position moyenne en course,15.50
 COTA,Position moyenne en course,6.25
 Silverstone,Position moyenne en course,14
-Lusail,Position moyenne en course,13.38
+Lusail,Position moyenne en course,13.21
 Paul Ricard,Position moyenne en course,7
 Barcelone,Position moyenne en course,11.07
 Silverstone Grand Prix Circuit - WEC,Position moyenne en course,0
@@ -191,7 +191,7 @@ Fuji,Position moyenne en qualif.,11.50
 Sebring,Position moyenne en qualif.,10.47
 Bahrein (Outer),Position moyenne en qualif.,12.45
 Le Mans,Position moyenne en qualif.,9
-Fuji (classic),Position moyenne en qualif.,10.22
+Fuji (classic),Position moyenne en qualif.,10.80
 Monza (Grande),Position moyenne en qualif.,0
 Bahrein (Paddock),Position moyenne en qualif.,0
 Imola,Position moyenne en qualif.,8.55
@@ -199,7 +199,7 @@ Sebring (school),Position moyenne en qualif.,0
 Interlagos,Position moyenne en qualif.,11.75
 COTA,Position moyenne en qualif.,4
 Silverstone,Position moyenne en qualif.,13.38
-Lusail,Position moyenne en qualif.,13.85
+Lusail,Position moyenne en qualif.,13
 Paul Ricard,Position moyenne en qualif.,4
 Barcelone,Position moyenne en qualif.,10.38
 Silverstone Grand Prix Circuit - WEC,Position moyenne en qualif.,0
@@ -222,7 +222,7 @@ Sebring (school),Nombre de DNF,0
 Interlagos,Nombre de DNF,1
 COTA,Nombre de DNF,1
 Silverstone,Nombre de DNF,2
-Lusail,Nombre de DNF,3
+Lusail,Nombre de DNF,4
 Paul Ricard,Nombre de DNF,0
 Barcelone,Nombre de DNF,4
 Silverstone Grand Prix Circuit - WEC,Nombre de DNF,0
