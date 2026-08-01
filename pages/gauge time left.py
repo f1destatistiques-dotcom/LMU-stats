@@ -102,6 +102,7 @@ def build_gauge(end_date):
 
 gauges = [
     ("Tisseura", datetime(2026, 8, 12, 11, 0, tzinfo=TZ)),
+    ("DPRO", datetime(2026, 9, 1, 9, 0, tzinfo=TZ)),
     ("Automne 🍁", datetime(2026, 9, 21, 0, 0, tzinfo=TZ)),
     ("Hiver ⛄", datetime(2026, 12, 21, 0, 0, tzinfo=TZ)),
     ("Ra", datetime(2027, 2, 8, 0, 0, tzinfo=TZ)),
